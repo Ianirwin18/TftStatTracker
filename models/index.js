@@ -1,7 +1,7 @@
-//the MODEL of the MVC, define all data logic and relations here
+const router = require('express').Router();
 
-//import the example model
-const Example = require('./Example');
+const apiRoutes = require('../controllers/api');
 
+router.use('../controllers/api', apiRoutes);
 
-module.exports = { Example };
+module.exports = router;
