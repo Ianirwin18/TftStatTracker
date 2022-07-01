@@ -1,7 +1,9 @@
-const router = require('express').Router();
+const express = require('express');
+const router = express.Router();
+const router = express.Router();
+const matches = require('./matches');
 
-const apiRoutes = require('../controllers/api');
-
-router.use('../controllers/api', apiRoutes);
+router.use('/profile', profile)
+router.use('/matches', matches);
 
 module.exports = router;
