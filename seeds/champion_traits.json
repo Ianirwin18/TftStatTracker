@@ -1,0 +1,546 @@
+[
+	{
+		"name" : "Aatrox",
+		"trait_id" : "301"
+	},
+	{
+		"name" : "Aatrox",
+		"trait_id" : "311"
+	},
+	{
+		"name" : "Anivia",
+		"trait_id" : "302"
+	},
+	{
+		"name" : "Anivia",
+		"trait_id" : "319"
+	},
+	{
+		"name" : "Anivia",
+		"trait_id" : "312"
+	},
+	{
+		"name" : "Ao Shin",
+		"trait_id" : "304"
+	},
+	{
+		"name" : "Ao Shin",
+		"trait_id" : "321"
+	},
+	{
+		"name" : "Ashe",
+		"trait_id" : "302"
+	},
+	{
+		"name" : "Ashe",
+		"trait_id" : "316"
+	},
+	{
+		"name" : "Ashe",
+		"trait_id" : "318"
+	},
+	{
+		"name" : "Aurelion Sol",
+		"trait_id" : "300"
+	},
+	{
+		"name" : "Aurelion Sol",
+		"trait_id" : "321"
+	},
+	{
+		"name" : "Aurelion Sol",
+		"trait_id" : "319"
+	},
+	{
+		"name" : "Bard",
+		"trait_id" : "306"
+	},
+	{
+		"name" : "Bard",
+		"trait_id" : "320"
+	},
+	{
+		"name" : "Bard",
+		"trait_id" : "323"
+	},
+	{
+		"name" : "Braum",
+		"trait_id" : "307"
+	},
+	{
+		"name" : "Braum",
+		"trait_id" : "313"
+	},
+	{
+		"name" : "Corki",
+		"trait_id" : "308"
+	},
+	{
+		"name" : "Corki",
+		"trait_id" : "314"
+	},
+	{
+		"name" : "Daeja",
+		"trait_id" : "299"
+	},
+	{
+		"name" : "Daeja",
+		"trait_id" : "321"
+	},
+	{
+		"name" : "Diana",
+		"trait_id" : "307"
+	},
+	{
+		"name" : "Diana",
+		"trait_id" : "272"
+	},
+	{
+		"name" : "Elise",
+		"trait_id" : "303"
+	},
+	{
+		"name" : "Elise",
+		"trait_id" : "315"
+	},
+	{
+		"name" : "Ezreal",
+		"trait_id" : "304"
+	},
+	{
+		"name" : "Ezreal",
+		"trait_id" : "316"
+	},
+	{
+		"name" : "Gnar",
+		"trait_id" : "302"
+	},
+	{
+		"name" : "Gnar",
+		"trait_id" : "315"
+	},
+	{
+		"name" : "Hecarim",
+		"trait_id" : "305"
+	},
+	{
+		"name" : "Hecarim",
+		"trait_id" : "317"
+	},
+	{
+		"name" : "Heimerdinger",
+		"trait_id" : "309"
+	},
+	{
+		"name" : "Heimerdinger",
+		"trait_id" : "310"
+	},
+	{
+		"name" : "Idas",
+		"trait_id" : "301"
+	},
+	{
+		"name" : "Idas",
+		"trait_id" : "313"
+	},
+	{
+		"name" : "Idas",
+		"trait_id" : "321"
+	},
+	{
+		"name" : "Illaoi",
+		"trait_id" : "300"
+	},
+	{
+		"name" : "Illaoi",
+		"trait_id" : "274"
+	},
+	{
+		"name" : "Jinx",
+		"trait_id" : "308"
+	},
+	{
+		"name" : "Jinx",
+		"trait_id" : "314"
+	},
+	{
+		"name" : "Karma",
+		"trait_id" : "302"
+	},
+	{
+		"name" : "Karma",
+		"trait_id" : "318"
+	},
+	{
+		"name" : "Kayn",
+		"trait_id" : "305"
+	},
+	{
+		"name" : "Kayn",
+		"trait_id" : "301"
+	},
+	{
+		"name" : "Kayn",
+		"trait_id" : "272"
+	},
+	{
+		"name" : "Lee Sin",
+		"trait_id" : "304"
+	},
+	{
+		"name" : "Lee Sin",
+		"trait_id" : "318"
+	},
+	{
+		"name" : "Leona",
+		"trait_id" : "299"
+	},
+	{
+		"name" : "Leona",
+		"trait_id" : "313"
+	},
+	{
+		"name" : "Lillia",
+		"trait_id" : "307"
+	},
+	{
+		"name" : "Lillia",
+		"trait_id" : "317"
+	},
+	{
+		"name" : "Lillia",
+		"trait_id" : "310"
+	},
+	{
+		"name" : "Lulu",
+		"trait_id" : "309"
+	},
+	{
+		"name" : "Lulu",
+		"trait_id" : "320"
+	},
+	{
+		"name" : "Lulu",
+		"trait_id" : "319"
+	},
+	{
+		"name" : "Nami",
+		"trait_id" : "300"
+	},
+	{
+		"name" : "Nami",
+		"trait_id" : "320"
+	},
+	{
+		"name" : "Nami",
+		"trait_id" : "310"
+	},
+	{
+		"name" : "Neeko",
+		"trait_id" : "302"
+	},
+	{
+		"name" : "Neeko",
+		"trait_id" : "315"
+	},
+	{
+		"name" : "Nidalee",
+		"trait_id" : "300"
+	},
+	{
+		"name" : "Nidalee",
+		"trait_id" : "315"
+	},
+	{
+		"name" : "Nunu",
+		"trait_id" : "299"
+	},
+	{
+		"name" : "Nunu",
+		"trait_id" : "317"
+	},
+	{
+		"name" : "Olaf",
+		"trait_id" : "307"
+	},
+	{
+		"name" : "Olaf",
+		"trait_id" : "274"
+	},
+	{
+		"name" : "Olaf",
+		"trait_id" : "311"
+	},
+	{
+		"name" : "Ornn",
+		"trait_id" : "304"
+	},
+	{
+		"name" : "Ornn",
+		"trait_id" : "274"
+	},
+	{
+		"name" : "Ornn",
+		"trait_id" : "312"
+	},
+	{
+		"name" : "Pyke",
+		"trait_id" : "303"
+	},
+	{
+		"name" : "Pyke",
+		"trait_id" : "272"
+	},
+	{
+		"name" : "Qiyana",
+		"trait_id" : "304"
+	},
+	{
+		"name" : "Qiyana",
+		"trait_id" : "272"
+	},
+	{
+		"name" : "Ryze",
+		"trait_id" : "306"
+	},
+	{
+		"name" : "Ryze",
+		"trait_id" : "310"
+	},
+	{
+		"name" : "Sejuani",
+		"trait_id" : "306"
+	},
+	{
+		"name" : "Sejuani",
+		"trait_id" : "317"
+	},
+	{
+		"name" : "Senna",
+		"trait_id" : "305"
+	},
+	{
+		"name" : "Senna",
+		"trait_id" : "314"
+	},
+	{
+		"name" : "Sett",
+		"trait_id" : "305"
+	},
+	{
+		"name" : "Sett",
+		"trait_id" : "318"
+	},
+	{
+		"name" : "Shen",
+		"trait_id" : "305"
+	},
+	{
+		"name" : "Shen",
+		"trait_id" : "274"
+	},
+	{
+		"name" : "Shen",
+		"trait_id" : "311"
+	},
+	{
+		"name" : "Shi Oh Yu",
+		"trait_id" : "302"
+	},
+	{
+		"name" : "Shi Oh Yu",
+		"trait_id" : "320"
+	},
+	{
+		"name" : "Shi Oh Yu",
+		"trait_id" : "321"
+	},
+	{
+		"name" : "Shyvana",
+		"trait_id" : "305"
+	},
+	{
+		"name" : "Shyvana",
+		"trait_id" : "321"
+	},
+	{
+		"name" : "Shyvana",
+		"trait_id" : "315"
+	},
+	{
+		"name" : "Skarner",
+		"trait_id" : "300"
+	},
+	{
+		"name" : "Skarner",
+		"trait_id" : "274"
+	},
+	{
+		"name" : "Sona",
+		"trait_id" : "308"
+	},
+	{
+		"name" : "Sona",
+		"trait_id" : "319"
+	},
+	{
+		"name" : "Soraka",
+		"trait_id" : "302"
+	},
+	{
+		"name" : "Soraka",
+		"trait_id" : "322"
+	},
+	{
+		"name" : "Swain",
+		"trait_id" : "305"
+	},
+	{
+		"name" : "Swain",
+		"trait_id" : "318"
+	},
+	{
+		"name" : "Swain",
+		"trait_id" : "315"
+	},
+	{
+		"name" : "Sy'fen",
+		"trait_id" : "303"
+	},
+	{
+		"name" : "Sy'fen",
+		"trait_id" : "274"
+	},
+	{
+		"name" : "Sy'fen",
+		"trait_id" : "321"
+	},
+	{
+		"name" : "Sylas",
+		"trait_id" : "303"
+	},
+	{
+		"name" : "Sylas",
+		"trait_id" : "274"
+	},
+	{
+		"name" : "Sylas",
+		"trait_id" : "310"
+	},
+	{
+		"name" : "Tahm Kench",
+		"trait_id" : "308"
+	},
+	{
+		"name" : "Tahm Kench",
+		"trait_id" : "274"
+	},
+	{
+		"name" : "Talon",
+		"trait_id" : "306"
+	},
+	{
+		"name" : "Talon",
+		"trait_id" : "272"
+	},
+	{
+		"name" : "Taric",
+		"trait_id" : "302"
+	},
+	{
+		"name" : "Taric",
+		"trait_id" : "313"
+	},
+	{
+		"name" : "Thresh",
+		"trait_id" : "303"
+	},
+	{
+		"name" : "Thresh",
+		"trait_id" : "313"
+	},
+	{
+		"name" : "Tristana",
+		"trait_id" : "309"
+	},
+	{
+		"name" : "Tristana",
+		"trait_id" : "314"
+	},
+	{
+		"name" : "Twitch",
+		"trait_id" : "306"
+	},
+	{
+		"name" : "Twitch",
+		"trait_id" : "316"
+	},
+	{
+		"name" : "Varus",
+		"trait_id" : "300"
+	},
+	{
+		"name" : "Varus",
+		"trait_id" : "316"
+	},
+	{
+		"name" : "Vladimir",
+		"trait_id" : "300"
+	},
+	{
+		"name" : "Vladimir",
+		"trait_id" : "310"
+	},
+	{
+		"name" : "Volibear",
+		"trait_id" : "301"
+	},
+	{
+		"name" : "Volibear",
+		"trait_id" : "318"
+	},
+	{
+		"name" : "Volibear",
+		"trait_id" : "312"
+	},
+	{
+		"name" : "Xayah",
+		"trait_id" : "305"
+	},
+	{
+		"name" : "Xayah",
+		"trait_id" : "316"
+	},
+	{
+		"name" : "Yasuo",
+		"trait_id" : "299"
+	},
+	{
+		"name" : "Yasuo",
+		"trait_id" : "318"
+	},
+	{
+		"name" : "Yasuo",
+		"trait_id" : "311"
+	},
+	{
+		"name" : "Yone",
+		"trait_id" : "299"
+	},
+	{
+		"name" : "Yone",
+		"trait_id" : "311"
+	},
+	{
+		"name" : "Zoe",
+		"trait_id" : "301"
+	},
+	{
+		"name" : "Zoe",
+		"trait_id" : "310"
+	},
+	{
+		"name" : "Zoe",
+		"trait_id" : "324"
+	}
+]

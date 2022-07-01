@@ -1,0 +1,115 @@
+[
+	{
+		"id" : "272",
+		"name" : "Assassin"
+	},
+	{
+		"id" : "274",
+		"name" : "Bruiser"
+	},
+	{
+		"id" : "299",
+		"name" : "Mirage"
+	},
+	{
+		"id" : "300",
+		"name" : "Astral"
+	},
+	{
+		"id" : "301",
+		"name" : "Shimmerscale"
+	},
+	{
+		"id" : "302",
+		"name" : "Jade"
+	},
+	{
+		"id" : "303",
+		"name" : "Whispers"
+	},
+	{
+		"id" : "304",
+		"name" : "Tempest"
+	},
+	{
+		"id" : "305",
+		"name" : "Ragewing"
+	},
+	{
+		"id" : "306",
+		"name" : "Guild"
+	},
+	{
+		"id" : "307",
+		"name" : "Scalescorn"
+	},
+	{
+		"id" : "308",
+		"name" : "Revel"
+	},
+	{
+		"id" : "309",
+		"name" : "Trainer"
+	},
+	{
+		"id" : "310",
+		"name" : "Mage"
+	},
+	{
+		"id" : "311",
+		"name" : "Warrior"
+	},
+	{
+		"id" : "312",
+		"name" : "Legend"
+	},
+	{
+		"id" : "313",
+		"name" : "Guardian"
+	},
+	{
+		"id" : "314",
+		"name" : "Cannoneer"
+	},
+	{
+		"id" : "315",
+		"name" : "Shapeshifter"
+	},
+	{
+		"id" : "316",
+		"name" : "Swiftshot"
+	},
+	{
+		"id" : "317",
+		"name" : "Cavalier"
+	},
+	{
+		"id" : "318",
+		"name" : "Dragonmancer"
+	},
+	{
+		"id" : "319",
+		"name" : "Evoker"
+	},
+	{
+		"id" : "320",
+		"name" : "Mystic"
+	},
+	{
+		"id" : "321",
+		"name" : "Dragon"
+	},
+	{
+		"id" : "322",
+		"name" : "Starcaller"
+	},
+	{
+		"id" : "323",
+		"name" : "Bard"
+	},
+	{
+		"id" : "324",
+		"name" : "Spell Thief"
+	}
+]
+
