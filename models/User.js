@@ -13,7 +13,7 @@ User.init(
       autoIncrement: true,
     },
     username: {
-      type: DataTypes.STRING(16),
+      type: DataTypes.STRING(12),
       allowNull: false,
       unique: true,
     },
@@ -34,6 +34,15 @@ User.init(
     },
   },
   {
+    hooks: {
+      beforeCreate: async (userData) => {
+        userData.username = await userData.username.toLowerCase();
+        userData.email = await userData.email.toLowerCase();
+        userData.password = await bcrypt.hash(userData.password, 5);
+        return userData;
+      },
+    },
+
     sequelize,
     timestamps: false,
     freezeTableName: true,
