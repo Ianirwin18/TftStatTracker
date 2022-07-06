@@ -1,0 +1,370 @@
+[
+    {
+        "champion": "Aatrox",
+        "cost": 1,
+        "trait1": "Shimmerscale",
+        "trait2": "Warrior"
+    },
+    {
+        "champion": "Anivia",
+        "cost": 3,
+        "trait1": "Jade",
+        "trait2": "Evoker",
+        "trait3": "Legend"
+    },
+    {
+        "champion": "Ao Shin",
+        "cost": 10,
+        "trait1": "Tempest",
+        "trait2": "Dragon"
+    },
+    {
+        "champion": "Ashe",
+        "cost": 2,
+        "trait1": "Jade",
+        "trait2": "Swiftshot",
+        "trait3": "Dragonmancer"
+    },
+    {
+        "champion": "Aurelion Sol",
+        "cost": 10,
+        "trait1": "Astral",
+        "trait2": "Dragon",
+        "trait3": "Evoker"
+    },
+    {
+        "champion": "Bard",
+        "cost": 5,
+        "trait1": "Guild",
+        "trait2": "Mystic",
+        "trait3": "Bard"
+    },
+    {
+        "champion": "Braum",
+        "cost": 2,
+        "trait1": "Scalescorn",
+        "trait2": "Guardian"
+    },
+    {
+        "champion": "Corki",
+        "cost": 4,
+        "trait1": "Revel",
+        "trait2": "Cannoneer"
+    },
+    {
+        "champion": "Daeja",
+        "cost": 8,
+        "trait1": "Mirage",
+        "trait2": "Dragon"
+    },
+    {
+        "champion": "Diana",
+        "cost": 3,
+        "trait1": "Scalescorn",
+        "trait2": "Assassin"
+    },
+    {
+        "champion": "Elise",
+        "cost": 3,
+        "trait1": "Whispers",
+        "trait2": "Shapeshifter"
+    },
+    {
+        "champion": "Ezreal",
+        "cost": 1,
+        "trait1": "Tempest",
+        "trait2": "Swiftshot"
+    },
+    {
+        "champion": "Gnar",
+        "cost": 2,
+        "trait1": "Jade",
+        "trait2": "Shapeshifter"
+    },
+    {
+        "champion": "Hecarim",
+        "cost": 4,
+        "trait1": "Ragewing",
+        "trait2": "Cavalier"
+    },
+    {
+        "champion": "Heimerdinger",
+        "cost": 1,
+        "trait1": "Trainer",
+        "trait2": "Mage"
+    },
+    {
+        "champion": "Idas",
+        "cost": 8,
+        "trait1": "Shimmerscale",
+        "trait2": "Guardian",
+        "trait3": "Dragon"
+    },
+    {
+        "champion": "Illaoi",
+        "cost": 3,
+        "trait1": "Astral",
+        "trait2": "Bruiser"
+    },
+    {
+        "champion": "Jinx",
+        "cost": 2,
+        "trait1": "Revel",
+        "trait2": "Cannoneer"
+    },
+    {
+        "champion": "Karma",
+        "cost": 1,
+        "trait1": "Jade",
+        "trait2": "Dragonmancer"
+    },
+    {
+        "champion": "Kayn",
+        "cost": 2,
+        "trait1": "Ragewing",
+        "trait2": "Shimmerscale",
+        "trait3": "Assassin"
+    },
+    {
+        "champion": "Lee Sin",
+        "cost": 3,
+        "trait1": "Tempest",
+        "trait2": "Dragonmancer"
+    },
+    {
+        "champion": "Leona",
+        "cost": 1,
+        "trait1": "Mirage",
+        "trait2": "Guardian"
+    },
+    {
+        "champion": "Lillia",
+        "cost": 2,
+        "trait1": "Scalescorn",
+        "trait2": "Cavalier",
+        "trait3": "Mage"
+    },
+    {
+        "champion": "Lulu",
+        "cost": 3,
+        "trait1": "Trainer",
+        "trait2": "Mystic",
+        "trait3": "Evoker"
+    },
+    {
+        "champion": "Nami",
+        "cost": 2,
+        "trait1": "Astral",
+        "trait2": "Mystic",
+        "trait3": "Mage"
+    },
+    {
+        "champion": "Neeko",
+        "cost": 4,
+        "trait1": "Jade",
+        "trait2": "Shapeshifter"
+    },
+    {
+        "champion": "Nidalee",
+        "cost": 1,
+        "trait1": "Astral",
+        "trait2": "Shapeshifter"
+    },
+    {
+        "champion": "Nunu",
+        "cost": 3,
+        "trait1": "Mirage",
+        "trait2": "Cavalier"
+    },
+    {
+        "champion": "Olaf",
+        "cost": 3,
+        "trait1": "Scalescorn",
+        "trait2": "Bruiser",
+        "trait3": "Warrior"
+    },
+    {
+        "champion": "Ornn",
+        "cost": 4,
+        "trait1": "Tempest",
+        "trait2": "Bruiser",
+        "trait3": "Legend"
+    },
+    {
+        "champion": "Pyke",
+        "cost": 5,
+        "trait1": "Whispers",
+        "trait2": "Assassin"
+    },
+    {
+        "champion": "Qiyana",
+        "cost": 2,
+        "trait1": "Tempest",
+        "trait2": "Assassin"
+    },
+    {
+        "champion": "Ryze",
+        "cost": 3,
+        "trait1": "Guild",
+        "trait2": "Mage"
+    },
+    {
+        "champion": "Sejuani",
+        "cost": 1,
+        "trait1": "Guild",
+        "trait2": "Cavalier"
+    },
+    {
+        "champion": "Senna",
+        "cost": 1,
+        "trait1": "Ragewing",
+        "trait2": "Cannoneer"
+    },
+    {
+        "champion": "Sett",
+        "cost": 1,
+        "trait1": "Ragewing",
+        "trait2": "Dragonmancer"
+    },
+    {
+        "champion": "Shen",
+        "cost": 2,
+        "trait1": "Ragewing",
+        "trait2": "Bruiser",
+        "trait3": "Warrior"
+    },
+    {
+        "champion": "Shi Oh Yu",
+        "cost": 8,
+        "trait1": "Jade",
+        "trait2": "Mystic",
+        "trait3": "Dragon"
+    },
+    {
+        "champion": "Shyvana",
+        "cost": 10,
+        "trait1": "Ragewing",
+        "trait2": "Dragon",
+        "trait3": "Shapeshifter"
+    },
+    {
+        "champion": "Skarner",
+        "cost": 1,
+        "trait1": "Astral",
+        "trait2": "Bruiser"
+    },
+    {
+        "champion": "Sona",
+        "cost": 4,
+        "trait1": "Revel",
+        "trait2": "Evoker"
+    },
+    {
+        "champion": "Soraka",
+        "cost": 5,
+        "trait1": "Jade",
+        "trait2": "Starcaller"
+    },
+    {
+        "champion": "Swain",
+        "cost": 3,
+        "trait1": "Ragewing",
+        "trait2": "Dragonmancer",
+        "trait3": "Shapeshifter"
+    },
+    {
+        "champion": "Sy'fen",
+        "cost": 8,
+        "trait1": "Whispers",
+        "trait2": "Bruiser",
+        "trait3": "Dragon"
+    },
+    {
+        "champion": "Sylas",
+        "cost": 3,
+        "trait1": "Whispers",
+        "trait2": "Bruiser",
+        "trait3": "Mage"
+    },
+    {
+        "champion": "Tahm Kench",
+        "cost": 1,
+        "trait1": "Revel",
+        "trait2": "Bruiser"
+    },
+    {
+        "champion": "Talon",
+        "cost": 4,
+        "trait1": "Guild",
+        "trait2": "Assassin"
+    },
+    {
+        "champion": "Taric",
+        "cost": 1,
+        "trait1": "Jade",
+        "trait2": "Guardian"
+    },
+    {
+        "champion": "Thresh",
+        "cost": 2,
+        "trait1": "Whispers",
+        "trait2": "Guardian"
+    },
+    {
+        "champion": "Tristana",
+        "cost": 2,
+        "trait1": "Trainer",
+        "trait2": "Cannoneer"
+    },
+    {
+        "champion": "Twitch",
+        "cost": 2,
+        "trait1": "Guild",
+        "trait2": "Swiftshot"
+    },
+    {
+        "champion": "Varus",
+        "cost": 3,
+        "trait1": "Astral",
+        "trait2": "Swiftshot"
+    },
+    {
+        "champion": "Vladimir",
+        "cost": 1,
+        "trait1": "Astral",
+        "trait2": "Mage"
+    },
+    {
+        "champion": "Volibear",
+        "cost": 3,
+        "trait1": "Shimmerscale",
+        "trait2": "Dragonmancer",
+        "trait3": "Legend"
+    },
+    {
+        "champion": "Xayah",
+        "cost": 4,
+        "trait1": "Ragewing",
+        "trait2": "Swiftshot"
+    },
+    {
+        "champion": "Yasuo",
+        "cost": 5,
+        "trait1": "Mirage",
+        "trait2": "Dragonmancer",
+        "trait3": "Warrior"
+    },
+    {
+        "champion": "Yone",
+        "cost": 2,
+        "trait1": "Mirage",
+        "trait2": "Warrior"
+    },
+    {
+        "champion": "Zoe",
+        "cost": 5,
+        "trait1": "Shimmerscale",
+        "trait2": "Mage",
+        "trait3": "Spell Thief"
+    }
+]
