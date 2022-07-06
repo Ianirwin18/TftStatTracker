@@ -8,7 +8,8 @@ const RiotError = require('../classes/error');
 router.get('/:puuid', async (req, res, next) => {
     try{
         let count = req.query.count || 30;
-        let response = await axios.get(`https://americas.api.riotgames.com/tft/match/v1/matches/by-puuid/${req.params.puuid}/ids?count=${count}&api_key=${keys.riot}`);
+        //Api Key Below
+        let response = await axios.get(`);
         let rawMatches = await getMatchData(response.data);
         let finsishedMatches = createMatches(rawMatches, req.params.puuid);
         res.json(finsishedMatches);
@@ -25,7 +26,8 @@ async function getMatchData(ids) {
     while(allMatches.length < ids.length){
         if((Date.now() - time)/1000 > wait){
             try{
-                let response = await axios.get(`https://americas.api.riotgames.com/tft/match/v1/matches/${ids[i]}?api_key=${keys.riot}`);
+                //Api key Below
+                let response = await axios.get(``);
                 allMatches.push(response.data);
                 i++;
             }catch(err){

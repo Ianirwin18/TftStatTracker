@@ -1,4 +1,4 @@
-//These are all the view routes for your application
+//These are all the view routes for our application
 const router = require('express').Router();
 
 //when a GET request is received on the root(/) route,
