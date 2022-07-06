@@ -13,3 +13,13 @@ const seedDatabase = async () => {
 };
 
 seedDatabase();
+
+
+let sql = `insert ignore into employee values?`;
+
+let values = [];
+
+//an empty array and push the data in to values array using for loop.
+//I have already created a table "Employee" with column name which is I am pushing //Data in same Manner.Note :- (Remember While Pushing data which will same Order as Your table column name)
+
+//for loop is running till the length of the users;
