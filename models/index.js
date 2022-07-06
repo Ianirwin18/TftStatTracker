@@ -1,7 +1,5 @@
-const router = require('express').Router();
+const Champion = require("./Champion")
+const User = require("./User");
 
-const apiRoutes = require('../controllers/api');
 
-router.use('../controllers/api', apiRoutes);
-
-module.exports = router;
+module.exports = { Champion, User }

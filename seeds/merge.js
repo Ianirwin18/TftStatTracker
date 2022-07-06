@@ -1,7 +1,8 @@
 const costs = require("./champion_costs.json");
 const champTraits = require("./champion_traits.json");
 const traits = require("./traits.json");
-const sequelize = require(`../config/connection`)
+const sequelize = require(`../config/connection`);
+const fs = require("fs");
 
 const costMap = costs.reduce((collector, item) => (collector[item.name] = item.cost, collector), {});
 // console.log(costMap);
@@ -34,11 +35,11 @@ const finalForm = Object.entries(champions).map(([champion, values]) => {
     return returnObj
 });
 
-console.log(finalForm);
+fs.writeFileSync("finalForm.json", JSON.stringify(finalForm))
 const champ = () => {
     return finalForm;
 };
-exports.champ = champ;
+
 // const jsonstringFinalForm = JSON.stringify(finalForm)
 // const jsonfinalForm = finalForm.map((o) => JSON.stringify(o))
 // console.log(jsonfinalForm)
