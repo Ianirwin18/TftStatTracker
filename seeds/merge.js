@@ -34,7 +34,7 @@ const finalForm = Object.entries(champions).map(([champion, values]) => {
     return returnObj
 });
 
-// console.log(finalForm);
+console.log(finalForm);
 const champ = () => {
     return finalForm;
 };
