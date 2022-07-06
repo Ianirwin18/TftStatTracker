@@ -1,9 +1,10 @@
 const costs = require("./champion_costs.json");
 const champTraits = require("./champion_traits.json");
 const traits = require("./traits.json");
+const sequelize = require(`../config/connection`)
 
 const costMap = costs.reduce((collector, item) => (collector[item.name] = item.cost, collector), {});
-console.log(costMap);
+// console.log(costMap);
 
 const traitsMap = traits.reduce((collector, item) => {
     collector[item.id] = item.name
@@ -11,7 +12,7 @@ const traitsMap = traits.reduce((collector, item) => {
 }, {});
 
 
-console.log(traitsMap);
+// console.log(traitsMap);
 
 const champions = champTraits.reduce((col, item) => {
     if (col[item.name]) {
@@ -33,7 +34,17 @@ const finalForm = Object.entries(champions).map(([champion, values]) => {
     return returnObj
 });
 
-console.log(finalForm);
+// console.log(finalForm);
+const champ = () => {
+    return finalForm;
+};
+exports.champ = champ;
+// const jsonstringFinalForm = JSON.stringify(finalForm)
+// const jsonfinalForm = finalForm.map((o) => JSON.stringify(o))
+// console.log(jsonfinalForm)
+
+// const seedfinalForm = () => finalForm.bulkCreate(finalForm)
+// module.exports = seedfinalForm
 
 //save it in a json file,
 //set up model,
