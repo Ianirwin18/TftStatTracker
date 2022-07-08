@@ -1,0 +1,474 @@
+[
+	{
+		"place" : 8,
+		"champion1" : "Ezereal",
+        "champion2" : "Qiyana",
+        "champion3" : "Gnar",
+        "champion4" : "Ashe",
+        "champion5" : "Karma",
+        "champion6" : "Leona"
+        
+	},
+
+    {
+        "place" : 4,
+        "champion" : "Corki",
+        "champion" : "Sona",
+        "champion" : "Idas",
+        "champion" : "Thresh",
+        "champion" : "Bard",
+        "champion" : "Lulu",
+        "champion" : "Tristana"
+    },
+    
+    {
+        "place" : 1,
+        "champion" : "Xaya",
+        "champion" : "Swain",
+        "champion" : "Sett",
+        "champion" : "Tham Kench",
+        "champion" : "Talon",
+        "champion" : "Shen",
+        "champion" : "Twitch",
+        "champion" : "Hecarim",
+        "champion" : "Lee Sin"
+    }
+,
+
+    {
+        "place" : 3,
+        "champion" : "Idas",
+        "champion" : "Corki",
+        "champion" : "Sona",
+        "champion" : "Bard",
+        "champion" : "Tristana",
+        "champion" : "Lulu",
+        "champion" : "Thresh"
+    }
+,
+
+    {
+        "place" : 3,
+        "champion" : "Swain",
+        "champion" : "Volibear",
+        "champion" : "Yasuo",
+        "champion" : "Sejuani",
+        "champion" : "Twitch",
+        "champion" : "Karma",
+        "champion" : "Neeko",
+        "champion" : "Lee Sin",
+        "champion" : "Ashe"
+    }
+,
+
+    {
+        "place" : 6,
+        "champion" : "Yasuo",
+        "champion" : "Lee Sin",
+        "champion" : "Neeko",
+        "champion" : "Ornn",
+        "champion" : "Volibear",
+        "champion" : "Sorka",
+        "champion" : "Swain",
+        "champion" : "Ashe"
+    }
+,
+
+    {
+        "place" : 8,
+        "champion" : "Ryze",
+        "champion" : "Sylas",
+        "champion" : "Nami",
+        "champion" : "Ao Shin",
+        "champion" : "Zoe",
+        "champion" : "Lilia",
+        "champion" : "Vladimir"
+    }
+,
+
+    {
+        "place" : 3,
+        "champion" : "Talon",
+        "champion" : "Xayah",
+        "champion" : "Shyvana",
+        "champion" : "Ornn",
+        "champion" : "Twitch",
+        "champion" : "Hecarim",
+        "champion" : "Qiyana",
+        "champion" : "Shen"
+    }
+,
+
+    {
+        "place" : 7,
+        "champion" : "Corki",
+        "champion" : "Sona",
+        "champion" : "Tahm Kench",
+        "champion" : "Ornn",
+        "champion" : "Jinx",
+        "champion" : "Lulu",
+        "champion" : "Heimerdinger"
+    }
+,
+
+    {
+        "place" : 3,
+        "champion" : "Illaoi",
+        "champion" : "Varus",
+        "champion" : "Nami",
+        "champion" : "Aurelion Sol",
+        "champion" : "Nidalee",
+        "champion" : "Skarner",
+        "champion" : "Neeko",
+        "champion" : "Vladimir"
+    }
+,
+
+    {
+        "place" : 1,
+        "champion" : "Diana",
+        "champion" : "Olaf",
+        "champion" : "Braum",
+        "champion" : "Pyke",
+        "champion" : "Qiyana",
+        "champion" : "Ornn",
+        "champion" : "Lilia",
+        "champion" : "Shen"
+    }
+,
+
+    {
+        "place" : 2,
+        "champion" : "Yasuo",
+        "champion" : "Ornn",
+        "champion" : "Lee Sin",
+        "champion" : "Swain",
+        "champion" : "Ashe",
+        "champion" : "Karma",
+        "champion" : "Neeko",
+        "champion" : "Sett"
+    }
+,
+
+    {
+        "place": 6,
+        "champion" : "Swain",
+        "champion" : "Xayah",
+        "champion" : "Shen",
+        "champion" : "Hecarim",
+        "champion" : "Neeko",
+        "champion" : "Ashe",
+        "champion" : "Senna",
+        "champion" : "Sett"
+    }
+,
+
+    {
+        "place" : 4,
+        "champion" : "Yasuo",
+        "champion" : "Ornn",
+        "champion" : "Anivia",
+        "champion" : "Volibear",
+        "champion" : "Neeko",
+        "champion" : "Lee Sin",
+        "champion" : "Swain",
+        "champion" : "Ashe",
+        "champion" : "Karma"
+    }
+,
+
+    {
+        "place" : 2,
+        "champion" : "Ornn",
+        "champion" : "Talon",
+        "champion" : "Xayah",
+        "champion" : "Hecarim",
+        "champion" : "Twitch",
+        "champion" : "Sejuani",
+        "champion" : "Varus",
+        "champion" : "Qiyana",
+        "champion" : "Shen"
+    }
+,
+
+    {
+        "place" : 1,
+        "champion" : "Idas",
+        "champion" : "Zoe",
+        "champion" : "Volibear",
+        "champion" : "Kayne",
+        "champion" : "Thresh",
+        "champion" : "Sejuani",
+        "champion" : "Zoe",
+        "champion" : "Aatrox"
+    }
+,
+
+    {
+        "place" : 3,
+        "champion" : "Illaoi",
+        "champion" : "Varus",
+        "champion" : "Aurelion Sol",
+        "champion" : "Nami",
+        "champion" : "Skarner",
+        "champion" : "Nidalee",
+        "champion" : "Vladimir"
+    }
+,
+
+    {
+        "place" : 3,
+        "champion" : "Ao Shin",
+        "champion" : "Ornn",
+        "champion" : "Sona",
+        "champion" : "Soraka",
+        "champion" : "Bard",
+        "champion" : "Neeko",
+        "champion" : "Gnar"
+    }
+,
+
+    {
+        "place" : 4,
+        "champion" : "Corki",
+        "champion" : "Sona",
+        "champion" : "Jinx",
+        "champion" : "Tahm Kench",
+        "champion" : "Idas",
+        "champion" : "Senna",
+        "champion" : "Tristana"
+    }
+,
+
+    {
+        "place" : 2,
+        "champion" : "Daeja",
+        "champion" : "Yone",
+        "champion" : "Nunu",
+        "champion" : "Leona",
+        "champion" : "Yasuo",
+        "champion" : "Hecarim",
+        "champion" : "Olaf",
+        "champion" : "Aatrox"
+    }
+,
+
+    {
+        "place" : 3,
+        "champion" : "Shi Oh Yu",
+        "champion" : "Yasuo",
+        "champion" : "Ashe",
+        "champion" : "Taric",
+        "champion" : "Neeko",
+        "champion" : "Aniva",
+        "champion" : "Karma"
+    }
+,
+
+    {
+        "place" : 6,
+        "champion" : "Daeja",
+        "champion" : "Sy'fen",
+        "champion" : "Shi Oh Yu",
+        "champion" : "Shyvana"
+    }
+,
+
+    {
+        "place" : 8,
+        "champion" : "Volibear",
+        "champion" : "Ao Shin",
+        "champion" : "Lee Sin",
+        "champion" : "Ashe",
+        "champion" : "Sett",
+        "champion" : "Swain"
+    }
+,
+
+    {
+        "place" : 8,
+        "champion" : "Ezreal",
+        "champion" : "Tahm Kench",
+        "champion" : "Elise",
+        "champion" : "Lee Sin",
+        "champion" : "Swain",
+        "champion" : "Volibear",
+        "champion" : "Twitch",
+        "champion" : "Karma"
+    }
+,
+
+    {
+        "place" : 7,
+        "champion" : "Yasuo",
+        "champion" : "Swain",
+        "champion" : "Leona",
+        "champion" : "Nunu",
+        "champion" : "Yone",
+        "champion" : "Daeja",
+        "champion" : "Lee Sin",
+        "champion" : "Ashe"
+    }
+,
+
+    {
+        "place" : 2,
+        "champion" : "Yasuo",
+        "champion" : "Ryze",
+        "champion" : "Sylas",
+        "champion" : "Lulu",
+        "champion" : "Pyke",
+        "champion" : "Nami",
+        "champion" : "Heimerdinger",
+        "champion" : "Vladimir"
+    }
+,
+
+    {
+        "place" : 1,
+        "champion" : "Ao Shin",
+        "champion" : "Yasuo",
+        "champion" : "Bard",
+        "champion" : "Pyke",
+        "champion" : "Lulu",
+        "champion" : "Ornn",
+        "champion" : "Lee Sin",
+        "champion" : "Swain",
+        "champion" : "Qiyana"
+    }
+,
+
+    {
+        "place" : 5,
+        "champion" : "Ornn",
+        "champion" : "Volibear",
+        "champion" : "Ashe",
+        "champion" : "Anivia",
+        "champion" : "Idas",
+        "champion" : "Yasuo",
+        "champion" : "Kayn",
+        "champion" : "Aatrox"
+    }
+,
+
+    {
+        "place" : 5,
+        "champion" : "Volibear",
+        "champion" : "Tristana",
+        "champion" : "Heimerdinger",
+        "champion" : "Lulu",
+        "champion" : "Aatrox",
+        "champion" : "Lee Sin",
+        "champion" : "Ashe"
+    }
+,
+
+    {
+        "place" : 1,
+        "champion" : "Yasuo",
+        "champion" : "Swain",
+        "champion" : "Shen",
+        "champion" : "Shyvana",
+        "champion" : "Soraka",
+        "champion" : "Neeko",
+        "champion" : "Senna",
+        "champion" : "Sett"
+    }
+,
+
+    {
+        "place" : 5,
+        "champion" : "Zoe",
+        "champion" : "Varus",
+        "champion" : "Vladimir",
+        "champion" : "Ryze",
+        "champion" : "Illaoi",
+        "champion" : "Lilia",
+        "champion" : "Nami",
+        "champion" : "Skarner"
+    }
+,
+
+    {
+        "place" : 1,
+        "champion" : "Aurelion Sol",
+        "champion" : "Sylas",
+        "champion" : "Nami",
+        "champion" : "Zoe",
+        "champion" : "Lulu",
+        "champion" : "Vladimir",
+        "champion" : "Heimerdinger"
+    }
+,
+
+    {
+        "place" : 1,
+        "champion" : "Shi Oh Yu",
+        "champion" : "Tristana",
+        "champion" : "Heimerdinger",
+        "champion" : "Corki",
+        "champion" : "Jinx",
+        "champion" : "Nami",
+        "champion" : "Lulu",
+        "champion" : "Senna"
+    }
+,
+
+    {
+        "place" : 8,
+        "champion" : "Idas",
+        "champion" : "Olaf",
+        "champion" : "Volibear",
+        "champion" : "Nami",
+        "champion" : "Zoe",
+        "champion" : "Kayne",
+        "champion" : "Vladimir"
+    }
+,
+
+    {
+        "place" : 8,
+        "champion" : "Thresh",
+        "champion" : "Volibear",
+        "champion" : "Tristana",
+        "champion" : "Aatrox",
+        "champion" : "Heimerdinger",
+        "champion" : "Idas"
+    }
+,
+
+    {
+        "place" : 6,
+        "champion" : "Olaf",
+        "champion" : "Idas",
+        "champion" : "Volibear",
+        "champion" : "Aatrox",
+        "champion" : "Bard",
+        "champion" : "Twitch",
+        "champion" : "Yone"
+    }
+,
+
+    {
+        "place" : 1,
+        "champion" : "Aurelion Sol",
+        "champion" : "Zoe",
+        "champion" : "Ryze",
+        "champion" : "Lulu",
+        "champion" : "Sylas",
+        "champion" : "Nami",
+        "champion" : "Heimerdinger",
+        "champion" : "Lilia"
+    }
+,
+
+    {
+        "place" : 7,
+        "champion" : "Daeja",
+        "champion" : "Illaoi",
+        "champion" : "Nami",
+        "champion" : "Sylas",
+        "champion" : "Nidalee",
+        "champion" : "Skarner"
+    }
+]
