@@ -15,7 +15,7 @@
 
     {
         "place" : 8,
-        "score" : ,
+        "score" : -4,
         "champion1" : "Shen",
         "champion2" : "Sylas",
         "champion3" : "Diana",
@@ -54,15 +54,15 @@
 
     {
         "place" : 5,
-        "score" : ,
-        "champion" : "Sett",
-        "champion" : "Thresh",
-        "champion" : "Shen",
-        "champion" : "Swain",
-        "champion" : "Volibear",
-        "champion" : "Sona",
-        "champion" : "Bard",
-        "champion" : "Shyvana"
+        "score" : -2,
+        "champion1" : "Sett",
+        "champion3" : "Thresh",
+        "champion4" : "Shen",
+        "champion5" : "Swain",
+        "champion6" : "Volibear",
+        "champion7" : "Sona",
+        "champion8" : "Bard",
+        "champion9" : "Shyvana"
     }
 ,
 
@@ -105,7 +105,7 @@
         "champion4" : "Corki",
         "champion5" : "Ornn",
         "champion6" : "Sona",
-        "champion7" : "Idas",
+        "champion7" : "Idas"
     }
 ,
 
@@ -435,15 +435,15 @@
 
     {
         "place" : 1,
-        "score" : ,
-        "champion" : "Nami",
-        "champion" : "Illaoi",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Daeja",
-        "champion" : "Sona",
-        "champion" : "Zoe",
-        "champion" : "Bard"
+        "score" : 4,
+        "champion1" : "Nami",
+        "champion2" : "Illaoi",
+        "champion3" : "Corki",
+        "champion4" : "Ornn",
+        "champion5" : "Daeja",
+        "champion6" : "Sona",
+        "champion7" : "Zoe",
+        "champion8" : "Bard"
     }
 ,
 
