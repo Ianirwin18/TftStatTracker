@@ -1,25 +1,32 @@
 
+<h1 class="header">Stats</h1>
+<div class="container">
+    <input type="submit" value="Load A New Match" id="btn" /><br><br>
 
-    <h1 class="header">Stats</h1>
-    <div class="container">
-        <input type="submit" value="Load A New Match" id="btn" /><br><br>
-
-        <div id="matchHistory">
-            <div class="historyContainer"></div>
-            <hr>
-        </div>
-
+<div id="matchHistory">
+    <div class="historyContainer"></div>
+    <hr>
     </div>
+
+</div>
 </div>
 <div id="modal" class="modal">
 
     <!-- Modal content -->
-    <div class="modal-content">
+    <form class="modal-content">
         <span class="close">&times;</span>
         <div class="title">
             Select Your Team Comp
         </div>
         <br>
+            <div class="placement"><input type="checkbox">1</div>
+            <div class="placement"><input type="checkbox">2</div>
+            <div class="placement"><input type="checkbox">3</div>
+            <div class="placement"><input type="checkbox">4</div>
+            <div class="placement"><input type="checkbox">5</div>
+            <div class="placement"><input type="checkbox">6</div>
+            <div class="placement"><input type="checkbox">7</div>
+            <div class="placement"><input type="checkbox">8</div>
         <div class="champ-container">
 
             <label class="option_item">
@@ -491,31 +498,31 @@
                 </div>
             </label>
         </div>
-    </div>
-<script>
-    var modal = document.getElementById("modal");
+    </form>
+    <script>
+        var modal = document.getElementById("modal");
 
-    // Get the button that opens the modal
-    var btn = document.getElementById("btn");
+        // Get the button that opens the modal
+        var btn = document.getElementById("btn");
 
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
 
-    // When the user clicks on the button, open the modal
-    btn.onclick = function () {
-        modal.style.display = "block";
-    }
+        // When the user clicks on the button, open the modal
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-        if (event.target == modal) {
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
             modal.style.display = "none";
         }
-    }
 
-</script>
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+    </script>
