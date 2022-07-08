@@ -15,14 +15,25 @@
         <div class="modal" id="upload-match">
             <div class="modal-background"></div>
             <div class="modal-content">
-                <!-- Any other Bulma elements you want -->
-                --- DO YOUR MODAL CONTENT HERE ---
+            <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Champion Selection</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      <div id="ChampionSelection">
+        {{!-- make table here --}}
+      </div>
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-success">Save changes</button>
+      <button class="button">Cancel</button>
             </div>
             <button class="modal-close is-large" aria-label="close"></button>
         </div>
 
         <button class="js-modal-trigger button is-primary" data-target="upload-match">
-            Open JS example modal
+            Open Champion Selection
         </button>
     </div>
     <script>
@@ -37,7 +48,16 @@
             getChampions();
 
             //do api call to get champions
-            
+
+            //Function to gen table data
+
+            var ChampionSelection = finalForm;
+             var arrayLength = ChampionSelection.length;
+            for (var i = 0; i < arrayLength; i++) {
+            console.log(ChampionSelection[i]);
+
+}
+
 
             // Functions to open and close a modal
             function openModal($el) {
