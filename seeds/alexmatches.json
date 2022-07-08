@@ -1,512 +1,401 @@
 [
-	{
-		"place" : 8,
-        "score" : -4,
-		"champion1" : "Ezereal",
-        "champion2" : "Qiyana",
-        "champion3" : "Gnar",
-        "champion4" : "Ashe",
-        "champion5" : "Karma",
-        "champion6" : "Leona"
-        
-	},
-
-    {
-        "place" : 4,
-        "score" : 1,
-        "champion1" : "Corki",
-        "champion2" : "Sona",
-        "champion3" : "Idas",
-        "champion4" : "Thresh",
-        "champion5" : "Bard",
-        "champion6" : "Lulu",
-        "champion7" : "Tristana"
-    },
-    
-    {
-        "place" : 1,
-        "score" : 4,
-        "champion1" : "Xaya",
-        "champion2" : "Swain",
-        "champion3" : "Sett",
-        "champion4" : "Tham Kench",
-        "champion5" : "Talon",
-        "champion6" : "Shen",
-        "champion7" : "Twitch",
-        "champion8" : "Hecarim",
-        "champion9" : "Lee Sin"
-    }
-,
-
-    {
-        "place" : 3,
-        "score" : 2,
-        "champion1" : "Idas",
-        "champion2" : "Corki",
-        "champion3" : "Sona",
-        "champion4" : "Bard",
-        "champion5" : "Tristana",
-        "champion6" : "Lulu",
-        "champion7" : "Thresh"
-    }
-,
-
-    {
-        "place" : 3,
-        "score" : 2,
-        "champion1" : "Swain",
-        "champion2" : "Volibear",
-        "champion3" : "Yasuo",
-        "champion4" : "Sejuani",
-        "champion5" : "Twitch",
-        "champion6" : "Karma",
-        "champion7" : "Neeko",
-        "champion8" : "Lee Sin",
-        "champion9" : "Ashe"
-    }
-,
-
-    {
-        "place" : 6,
-        "score" : -2,
-        "champion1" : "Yasuo",
-        "champion2" : "Lee Sin",
-        "champion3" : "Neeko",
-        "champion4" : "Ornn",
-        "champion5" : "Volibear",
-        "champion6" : "Sorka",
-        "champion7" : "Swain",
-        "champion8" : "Ashe"
-    }
-,
-
-    {
-        "place" : 8,
-        "score" : -4,
-        "champion1" : "Ryze",
-        "champion2" : "Sylas",
-        "champion3" : "Nami",
-        "champion4" : "Ao Shin",
-        "champion5" : "Zoe",
-        "champion6" : "Lilia",
-        "champion7" : "Vladimir"
-    }
-,
-
-    {
-        "place" : 3,
-        "score" : 2,
-        "champion1" : "Talon",
-        "champion2" : "Xayah",
-        "champion3" : "Shyvana",
-        "champion4" : "Ornn",
-        "champion5" : "Twitch",
-        "champion6" : "Hecarim",
-        "champion7" : "Qiyana",
-        "champion8" : "Shen"
-    }
-,
-
-    {
-        "place" : 7,
-        "score" : -3,
-        "champion1" : "Corki",
-        "champion2" : "Sona",
-        "champion3" : "Tahm Kench",
-        "champion4" : "Ornn",
-        "champion5" : "Jinx",
-        "champion6" : "Lulu",
-        "champion7" : "Heimerdinger"
-    }
-,
-
-    {
-        "place" : 3,
-        "score" : 2,
-        "champion1" : "Illaoi",
-        "champion2" : "Varus",
-        "champion3" : "Nami",
-        "champion4" : "Aurelion Sol",
-        "champion5" : "Nidalee",
-        "champion6" : "Skarner",
-        "champion7" : "Neeko",
-        "champion8" : "Vladimir"
-    }
-,
-
-    {
-        "place" : 1,
-        "score" : 4,
-        "champion1" : "Diana",
-        "champion2" : "Olaf",
-        "champion3" : "Braum",
-        "champion4" : "Pyke",
-        "champion5" : "Qiyana",
-        "champion6" : "Ornn",
-        "champion7" : "Lilia",
-        "champion8" : "Shen"
-    }
-,
-
-    {
-        "place" : 2,
-        "score" :  3,
-        "champion1" : "Yasuo",
-        "champion2" : "Ornn",
-        "champion3" : "Lee Sin",
-        "champion4" : "Swain",
-        "champion5" : "Ashe",
-        "champion6" : "Karma",
-        "champion7" : "Neeko",
-        "champion8" : "Sett"
-    }
-,
-
-    {
-        "place": 6,
-        "score" : -2,
-        "champion1" : "Swain",
-        "champion2" : "Xayah",
-        "champion3" : "Shen",
-        "champion4" : "Hecarim",
-        "champion5" : "Neeko",
-        "champion6" : "Ashe",
-        "champion7" : "Senna",
-        "champion8" : "Sett"
-    }
-,
-
-    {
-        "place" : 4,
-        "score" :  1,
-        "champion1" : "Yasuo",
-        "champion2" : "Ornn",
-        "champion3" : "Anivia",
-        "champion4" : "Volibear",
-        "champion5" : "Neeko",
-        "champion6" : "Lee Sin",
-        "champion7" : "Swain",
-        "champion8" : "Ashe",
-        "champion9" : "Karma"
-    }
-,
-
-    {
-        "place" : 2,
-        "score" :  3,
-        "champion1" : "Ornn",
-        "champion2" : "Talon",
-        "champion3" : "Xayah",
-        "champion4" : "Hecarim",
-        "champion5" : "Twitch",
-        "champion6" : "Sejuani",
-        "champion7" : "Varus",
-        "champion8" : "Qiyana",
-        "champion9" : "Shen"
-    }
-,
-
-    {
-        "place" : 1,
-        "score" : 4,
-        "champion1" : "Idas",
-        "champion2" : "Zoe",
-        "champion3" : "Volibear",
-        "champion4" : "Kayne",
-        "champion5" : "Thresh",
-        "champion6" : "Sejuani",
-        "champion7" : "Zoe",
-        "champion8" : "Aatrox"
-    }
-,
-
-    {
-        "place" : 3,
-        "score" :  2,
-        "champion1" : "Illaoi",
-        "champion2" : "Varus",
-        "champion3" : "Aurelion Sol",
-        "champion4" : "Nami",
-        "champion5" : "Skarner",
-        "champion6" : "Nidalee",
-        "champion7" : "Vladimir"
-    }
-,
-
-    {
-        "place" : 3,
-        "score" :  2,
-        "champion1" : "Ao Shin",
-        "champion2" : "Ornn",
-        "champion3" : "Sona",
-        "champion4" : "Soraka",
-        "champion5" : "Bard",
-        "champion6" : "Neeko",
-        "champion7" : "Gnar"
-    }
-,
-
-    {
-        "place" : 4,
-        "score" : 1 ,
-        "champion1" : "Corki",
-        "champion2" : "Sona",
-        "champion3" : "Jinx",
-        "champion4" : "Tahm Kench",
-        "champion5" : "Idas",
-        "champion6" : "Senna",
-        "champion7" : "Tristana"
-    }
-,
-
-    {
-        "place" : 2,
-        "score" : 3 ,
-        "champion1" : "Daeja",
-        "champion2" : "Yone",
-        "champion3" : "Nunu",
-        "champion4" : "Leona",
-        "champion5" : "Yasuo",
-        "champion6" : "Hecarim",
-        "champion7" : "Olaf",
-        "champion8" : "Aatrox"
-    }
-,
-
-    {
-        "place" : 3,
-        "score" : 2 ,
-        "champion1" : "Shi Oh Yu",
-        "champion2" : "Yasuo",
-        "champion3" : "Ashe",
-        "champion4" : "Taric",
-        "champion5" : "Neeko",
-        "champion6" : "Aniva",
-        "champion7" : "Karma"
-    }
-,
-
-    {
-        "place" : 6,
-        "score" : -2 ,
-        "champion1" : "Daeja",
-        "champion2" : "Sy'fen",
-        "champion3" : "Shi Oh Yu",
-        "champion4" : "Shyvana"
-    }
-,
-
-    {
-        "place" : 8,
-        "score" :  -4,
-        "champion1" : "Volibear",
-        "champion2" : "Ao Shin",
-        "champion3" : "Lee Sin",
-        "champion4" : "Ashe",
-        "champion5" : "Sett",
-        "champion6" : "Swain"
-    }
-,
-
-    {
-        "place" : 8,
-        "score" : -4 ,
-        "champion1" : "Ezreal",
-        "champion2" : "Tahm Kench",
-        "champion3" : "Elise",
-        "champion4" : "Lee Sin",
-        "champion5" : "Swain",
-        "champion6" : "Volibear",
-        "champion7" : "Twitch",
-        "champion8" : "Karma"
-    }
-,
-
-    {
-        "place" : 7,
-        "score" : -3 ,
-        "champion1" : "Yasuo",
-        "champion2" : "Swain",
-        "champion3" : "Leona",
-        "champion4" : "Nunu",
-        "champion5" : "Yone",
-        "champion6" : "Daeja",
-        "champion7" : "Lee Sin",
-        "champion8" : "Ashe"
-    }
-,
-
-    {
-        "place" : 2,
-        "score" : 3 ,
-        "champion1" : "Yasuo",
-        "champion2" : "Ryze",
-        "champion3" : "Sylas",
-        "champion4" : "Lulu",
-        "champion5" : "Pyke",
-        "champion6" : "Nami",
-        "champion7" : "Heimerdinger",
-        "champion8" : "Vladimir"
-    }
-,
-
-    {
-        "place" : 1,
-        "score" : 4 ,
-        "champion1" : "Ao Shin",
-        "champion2" : "Yasuo",
-        "champion3" : "Bard",
-        "champion4" : "Pyke",
-        "champion5" : "Lulu",
-        "champion6" : "Ornn",
-        "champion7" : "Lee Sin",
-        "champion8" : "Swain",
-        "champion9" : "Qiyana"
-    }
-,
-
-    {
-        "place" : 5,
-        "score" : -1 ,
-        "champion1" : "Ornn",
-        "champion2" : "Volibear",
-        "champion3" : "Ashe",
-        "champion4" : "Anivia",
-        "champion5" : "Idas",
-        "champion6" : "Yasuo",
-        "champion7" : "Kayn",
-        "champion8" : "Aatrox"
-    }
-,
-
-    {
-        "place" : 5,
-        "score" :  -1,
-        "champion1" : "Volibear",
-        "champion2" : "Tristana",
-        "champion3" : "Heimerdinger",
-        "champion4" : "Lulu",
-        "champion5" : "Aatrox",
-        "champion6" : "Lee Sin",
-        "champion7" : "Ashe"
-    }
-,
-
-    {
-        "place" : 1,
-        "score" : 4 ,
-        "champion1" : "Yasuo",
-        "champion2" : "Swain",
-        "champion3" : "Shen",
-        "champion4" : "Shyvana",
-        "champion5" : "Soraka",
-        "champion6" : "Neeko",
-        "champion7" : "Senna",
-        "champion8" : "Sett"
-    }
-,
-
-    {
-        "place" : 5,
-        "score" : -1 ,
-        "champion1" : "Zoe",
-        "champion2" : "Varus",
-        "champion3" : "Vladimir",
-        "champion4" : "Ryze",
-        "champion5" : "Illaoi",
-        "champion6" : "Lilia",
-        "champion7" : "Nami",
-        "champion8" : "Skarner"
-    }
-,
-
-    {
-        "place" : 1,
-        "score" : 4 ,
-        "champion1" : "Aurelion Sol",
-        "champion2" : "Sylas",
-        "champion3" : "Nami",
-        "champion4" : "Zoe",
-        "champion5" : "Lulu",
-        "champion6" : "Vladimir",
-        "champion7" : "Heimerdinger"
-    }
-,
-
-    {
-        "place" : 1,
-        "score" :  4,
-        "champion1" : "Shi Oh Yu",
-        "champion2" : "Tristana",
-        "champion3" : "Heimerdinger",
-        "champion4" : "Corki",
-        "champion5" : "Jinx",
-        "champion6" : "Nami",
-        "champion7" : "Lulu",
-        "champion8" : "Senna"
-    }
-,
-
-    {
-        "place" : 8,
-        "score" :  -4,
-        "champion1" : "Idas",
-        "champion2" : "Olaf",
-        "champion3" : "Volibear",
-        "champion4" : "Nami",
-        "champion5" : "Zoe",
-        "champion6" : "Kayne",
-        "champion7" : "Vladimir"
-    }
-,
-
-    {
-        "place" : 8,
-        "score" : -4 ,
-        "champion1" : "Thresh",
-        "champion2" : "Volibear",
-        "champion3" : "Tristana",
-        "champion4" : "Aatrox",
-        "champion5" : "Heimerdinger",
-        "champion6" : "Idas"
-    }
-,
-
-    {
-        "place" : 6,
-        "score" : -2 ,
-        "champion1" : "Olaf",
-        "champion2" : "Idas",
-        "champion3" : "Volibear",
-        "champion4" : "Aatrox",
-        "champion5" : "Bard",
-        "champion6" : "Twitch",
-        "champion7" : "Yone"
-    }
-,
-
-    {
-        "place" : 1,
-        "score" :  4,
-        "champion1" : "Aurelion Sol",
-        "champion2" : "Zoe",
-        "champion3" : "Ryze",
-        "champion4" : "Lulu",
-        "champion5" : "Sylas",
-        "champion6" : "Nami",
-        "champion7" : "Heimerdinger",
-        "champion8" : "Lilia"
-    }
-,
-
-    {
-        "place" : 7,
-        "score" :  -3,
-        "champion1" : "Daeja",
-        "champion2" : "Illaoi",
-        "champion3" : "Nami",
-        "champion4" : "Sylas",
-        "champion5" : "Nidalee",
-        "champion6" : "Skarner"
-    }
+    [
+         8,
+         "Ezreal",
+         "Qiyana",
+         "Gnar",
+         "Ashe",
+         "Karma",
+         "Leona"
+    ],
+    [
+         4,
+         "Corki",
+         "Sona",
+         "Idas",
+         "Thresh",
+         "Bard",
+         "Lulu",
+         "Tristana"
+    ],
+    [
+         1,
+         "Xayah",
+         "Swain",
+         "Sett",
+         "Tahm Kench",
+         "Talon",
+         "Shen",
+         "Twitch",
+         "Hecarim",
+         "Lee Sin"
+    ],
+    [
+         3,
+         "Idas",
+         "Corki",
+         "Sona",
+         "Bard",
+         "Tristana",
+         "Lulu",
+         "Thresh"
+    ],
+    [
+         3,
+         "Swain",
+         "Volibear",
+         "Yasuo",
+         "Sejuani",
+         "Twitch",
+         "Karma",
+         "Neeko",
+         "Lee Sin",
+         "Ashe"
+    ],
+    [
+         6,
+         "Yasuo",
+         "Lee Sin",
+         "Neeko",
+         "Ornn",
+         "Volibear",
+         "Soraka",
+         "Swain",
+         "Ashe"
+    ],
+    [
+         8,
+         "Ryze",
+         "Sylas",
+         "Nami",
+         "Ao Shin",
+         "Zoe",
+         "Lillia",
+         "Vladimir"
+    ],
+    [
+         3,
+         "Talon",
+         "Xayah",
+         "Shyvana",
+         "Ornn",
+         "Twitch",
+         "Hecarim",
+         "Qiyana",
+         "Shen"
+    ],
+    [
+         7,
+         "Corki",
+         "Sona",
+         "Tahm Kench",
+         "Ornn",
+         "Jinx",
+         "Lulu",
+         "Heimerdinger"
+    ],
+    [
+         3,
+         "Illaoi",
+         "Varus",
+         "Nami",
+         "Aurelion Sol",
+         "Nidalee",
+         "Skarner",
+         "Neeko",
+         "Vladimir"
+    ],
+    [
+         1,
+         "Diana",
+         "Olaf",
+         "Braum",
+         "Pyke",
+         "Qiyana",
+         "Ornn",
+         "Lillia",
+         "Shen"
+    ],
+    [
+         2,
+         "Yasuo",
+         "Ornn",
+         "Lee Sin",
+         "Swain",
+         "Ashe",
+         "Karma",
+         "Neeko",
+         "Sett"
+    ],
+    [
+         6,
+         "Swain",
+         "Xayah",
+         "Shen",
+         "Hecarim",
+         "Neeko",
+         "Ashe",
+         "Senna",
+         "Sett"
+    ],
+    [
+         4,
+         "Yasuo",
+         "Ornn",
+         "Anivia",
+         "Volibear",
+         "Neeko",
+         "Lee Sin",
+         "Swain",
+         "Ashe",
+         "Karma"
+    ],
+    [
+         2,
+         "Ornn",
+         "Talon",
+         "Xayah",
+         "Hecarim",
+         "Twitch",
+         "Sejuani",
+         "Varus",
+         "Qiyana",
+         "Shen"
+    ],
+    [
+         1,
+         "Idas",
+         "Zoe",
+         "Volibear",
+         "Kayn",
+         "Thresh",
+         "Sejuani",
+         "Zoe",
+         "Aatrox"
+    ],
+    [
+         3,
+         "Illaoi",
+         "Varus",
+         "Aurelion Sol",
+         "Nami",
+         "Skarner",
+         "Nidalee",
+         "Vladimir"
+    ],
+    [
+         3,
+         "Ao Shin",
+         "Ornn",
+         "Sona",
+         "Soraka",
+         "Bard",
+         "Neeko",
+         "Gnar"
+    ],
+    [
+         4,
+         "Corki",
+         "Sona",
+         "Jinx",
+         "Tahm Kench",
+         "Idas",
+         "Senna",
+         "Tristana"
+    ],
+    [
+         2,
+         "Daeja",
+         "Yone",
+         "Nunu",
+         "Leona",
+         "Yasuo",
+         "Hecarim",
+         "Olaf",
+         "Aatrox"
+    ],
+    [
+         3,
+         "Shi Oh Yu",
+         "Yasuo",
+         "Ashe",
+         "Taric",
+         "Neeko",
+         "Anivia",
+         "Karma"
+    ],
+    [
+         6,
+         "Daeja",
+         "Sy'fen",
+         "Shi Oh Yu",
+         "Shyvana"
+    ],
+    [
+         8,
+         "Volibear",
+         "Ao Shin",
+         "Lee Sin",
+         "Ashe",
+         "Sett",
+         "Swain"
+    ],
+    [
+         8,
+         "Ezreal",
+         "Tahm Kench",
+         "Elise",
+         "Lee Sin",
+         "Swain",
+         "Volibear",
+         "Twitch",
+         "Karma"
+    ],
+    [
+         7,
+         "Yasuo",
+         "Swain",
+         "Leona",
+         "Nunu",
+         "Yone",
+         "Daeja",
+         "Lee Sin",
+         "Ashe"
+    ],
+    [
+         2,
+         "Yasuo",
+         "Ryze",
+         "Sylas",
+         "Lulu",
+         "Pyke",
+         "Nami",
+         "Heimerdinger",
+         "Vladimir"
+    ],
+    [
+         1,
+         "Ao Shin",
+         "Yasuo",
+         "Bard",
+         "Pyke",
+         "Lulu",
+         "Ornn",
+         "Lee Sin",
+         "Swain",
+         "Qiyana"
+    ],
+    [
+         5,
+         "Ornn",
+         "Volibear",
+         "Ashe",
+         "Anivia",
+         "Idas",
+         "Yasuo",
+         "Kayn",
+         "Aatrox"
+    ],
+    [
+         5,
+         "Volibear",
+         "Tristana",
+         "Heimerdinger",
+         "Lulu",
+         "Aatrox",
+         "Lee Sin",
+         "Ashe"
+    ],
+    [
+         1,
+         "Yasuo",
+         "Swain",
+         "Shen",
+         "Shyvana",
+         "Soraka",
+         "Neeko",
+         "Senna",
+         "Sett"
+    ],
+    [
+         5,
+         "Zoe",
+         "Varus",
+         "Vladimir",
+         "Ryze",
+         "Illaoi",
+         "Lillia",
+         "Nami",
+         "Skarner"
+    ],
+    [
+         1,
+         "Aurelion Sol",
+         "Sylas",
+         "Nami",
+         "Zoe",
+         "Lulu",
+         "Vladimir",
+         "Heimerdinger"
+    ],
+    [
+         1,
+         "Shi Oh Yu",
+         "Tristana",
+         "Heimerdinger",
+         "Corki",
+         "Jinx",
+         "Nami",
+         "Lulu",
+         "Senna"
+    ],
+    [
+         8,
+         "Idas",
+         "Olaf",
+         "Volibear",
+         "Nami",
+         "Zoe",
+         "Kayn",
+         "Vladimir"
+    ],
+    [
+         8,
+         "Thresh",
+         "Volibear",
+         "Tristana",
+         "Aatrox",
+         "Heimerdinger",
+         "Idas"
+    ],
+    [
+         6,
+         "Olaf",
+         "Idas",
+         "Volibear",
+         "Aatrox",
+         "Bard",
+         "Twitch",
+         "Yone"
+    ],
+    [
+         1,
+         "Aurelion Sol",
+         "Zoe",
+         "Ryze",
+         "Lulu",
+         "Sylas",
+         "Nami",
+         "Heimerdinger",
+         "Lillia"
+    ],
+    [
+         7,
+         "Daeja",
+         "Illaoi",
+         "Nami",
+         "Sylas",
+         "Nidalee",
+         "Skarner"
+    ]
 ]
