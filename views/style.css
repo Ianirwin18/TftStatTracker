@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'frizquadratabold';
+    src: url("fonts/Friz-Quadrata-Font/Friz Quadrata Bold.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'friz_quadrataregular_italic';
+    src: url('friz_quadrata_italic.woff2') format('woff2'),
+        url('friz_quadrata_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'friz_quadrataregular';
+    src: url('friz_quadrata_regular.woff2') format('woff2'),
+        url('friz_quadrata_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/tft.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: #333;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'frizquadratabold', serif;
+}
+
+nav ul li button {
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'frizquadratabold', serif;
+}
+
+nav ul li button:hover {
+    color: #ff9216;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff9216;
+    transition: all 0.3s ease;
+}
+
+a {
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+
+body {
+    width: 100%;
+    color: #333;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background-color: rgba(46, 21, 105, 0.459);
+    color: #fafafa;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    font-family: 'frizquadratabold';
+}
+
+.container {
+    margin: 75px auto 5px;
+    width: 700px;
+    padding: 30px 0px 15px 60px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(46, 21, 105, 0.459);
+    font-size: 0.8em;
+    margin-bottom: 15%;
+}
+
+
+#matchHistory {
+    margin-top: 15px;
+    height: 360px;
+    font-family: 'friz_quadrataregular_italic';
+}
+
+
+.placement {
+    display: inline;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 550px;
+    margin-left: 0;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.block {
+    display: inline-block;
+    width: 150px;
+}
+
+.block2 {
+    display: inline-block;
+    width: 100px;
+}
+
+#status {
+    color: #B3B3B3;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.champ-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.title {
+    font-size: 45px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    font-family: 'frizquadratabold';
+}
+
+.champ-container .option_item {
+    display: block;
+    position: relative;
+    width: 175px;
+    height: 175px;
+    margin: 10px;
+}
+
+.champ-container .option_item .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.option_item .option_inner {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 58px 40px;
+    cursor: pointer;
+    color: #585c68;
+    display: block;
+    border: 5px solid transparent;
+    position: relative;
+}
+
+.option_item .option_inner .icon {
+    margin-bottom: 5px;
+}
+
+.option_item .option_inner .icon img {
+    max-width: 45px;
+}
+
+.option_item .option_inner .name {
+    user-select: none;
+}
+
+.option_item .checkbox:checked~.option_inner.grey {
+    border-color: #969696;
+    color: #969696;
+}
+
+.option_item .checkbox:checked~.option_inner.green {
+    border-color: #25d366;
+    color: #25d366;
+}
+
+.option_item .checkbox:checked~.option_inner.blue {
+    border-color: #0077b5;
+    color: #0077b5;
+}
+
+.option_item .checkbox:checked~.option_inner.purple {
+    border-color: #cc00ff;
+    color: #cc00ff;
+}
+
+.option_item .checkbox:checked~.option_inner.gold {
+    border-color: gold;
+    color: gold;
+}
+
+.option_item .checkbox:checked~.option_inner.high {
+    border-color: #dd4b39;
+    color: #dd4b39;
+}
+
+
+.option_item .option_inner .tickmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 20px solid;
+    border-color: #000 transparent transparent #000;
+    display: none;
+}
+
+.option_item .option_inner .tickmark:before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    width: 15px;
+    height: 5px;
+    border: 3px solid;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-45deg);
+}
+
+.option_item .checkbox:checked~.option_inner .tickmark {
+    display: block;
+}
+
+.option_item .option_inner.grey .tickmark {
+    border-color: #969696 transparent transparent #969696;
+}
+
+.option_item .option_inner.green .tickmark {
+    border-color: #25d366 transparent transparent #25d366;
+}
+
+.option_item .option_inner.blue .tickmark {
+    border-color: #0077b5 transparent transparent #0077b5;
+}
+
+.option_item .option_inner.purple .tickmark {
+    border-color: #cc00ff transparent transparent #cc00ff;
+}
+
+.option_item .option_inner.gold .tickmark {
+    border-color: gold transparent transparent gold;
+}
+
+.option_item .option_inner.high .tickmark {
+    border-color: #b92b27 transparent transparent #b92b27;
+}

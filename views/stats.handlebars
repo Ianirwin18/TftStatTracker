@@ -1,0 +1,521 @@
+
+
+    <h1 class="header">Stats</h1>
+    <div class="container">
+        <input type="submit" value="Load A New Match" id="btn" /><br><br>
+
+        <div id="matchHistory">
+            <div class="historyContainer"></div>
+            <hr>
+        </div>
+
+    </div>
+</div>
+<div id="modal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="title">
+            Select Your Team Comp
+        </div>
+        <br>
+        <div class="champ-container">
+
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Aatrox.png"></div>
+                    <div class="name">Aatrox</div>
+
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Anivia.png"></div>
+                    <div class="name">Anivia</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner gold">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/AoShin.png"></div>
+                    <div class="name">Ao Shin</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Ashe.png"></div>
+                    <div class="name">Ashe</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner gold">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/AurelionSol.png"></div>
+                    <div class="name">Aurelion Sol</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner gold">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Bard.png"></div>
+                    <div class="name">Bard</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Braum.png"></div>
+                    <div class="name">Braum</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner purple">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Corki.png"></div>
+                    <div class="name">Corki</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner purple">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Daeja.png"></div>
+                    <div class="name">Daeja</div>
+
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Diana.png"></div>
+                    <div class="name">Diana</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Elise.png"></div>
+                    <div class="name">Elise</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Ezreal.png"></div>
+                    <div class="name">Ezreal</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Gnar.png"></div>
+                    <div class="name">Gnar</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner purple">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Hecarim.png"></div>
+                    <div class="name">Hecarim</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Heimerdinger.png"></div>
+                    <div class="name">Heimerdinger</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner purple">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Idas.png"></div>
+                    <div class="name">Idas</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Illaoi.png"></div>
+                    <div class="name">Illaoi</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Jinx.png"></div>
+                    <div class="name">Jinx</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Karma.png"></div>
+                    <div class="name">Karma</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Kayn.png"></div>
+                    <div class="name">Kayn</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/LeeSin.png"></div>
+                    <div class="name">Lee Sin</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Leona.png"></div>
+                    <div class="name">Leona</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Lillia.png"></div>
+                    <div class="name">Lillia</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Lulu.png"></div>
+                    <div class="name">Lulu</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Nami.png"></div>
+                    <div class="name">Nami</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner purple">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Neeko.png"></div>
+                    <div class="name">Neeko</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Nidalee.png"></div>
+                    <div class="name">Nidalee</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Nunu.png"></div>
+                    <div class="name">Nunu</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Olaf.png"></div>
+                    <div class="name">Olaf</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner purple">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Ornn.png"></div>
+                    <div class="name">Ornn</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner gold">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Pyke.png"></div>
+                    <div class="name">Pyke</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Qiyana.png"></div>
+                    <div class="name">Qiyana</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Ryze.png"></div>
+                    <div class="name">Ryze</div>
+
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Sejuani.png"></div>
+                    <div class="name">Sejuani</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Senna.png"></div>
+                    <div class="name">Senna</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Sett.png"></div>
+                    <div class="name">Sett</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Shen.png"></div>
+                    <div class="name">Shen</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner gold">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/ShiOhYu.png"></div>
+                    <div class="name">Shi Oh Yu</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner purple">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Shyvana.png"></div>
+                    <div class="name">Shyvana</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Skarner.png"></div>
+                    <div class="name">Skarner</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner purple">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Sona.png"></div>
+                    <div class="name">Sona</div>
+
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner gold">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Soraka.png"></div>
+                    <div class="name">Soraka</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Swain.png"></div>
+                    <div class="name">Swain</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner purple">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Syfen.png"></div>
+                    <div class="name">Syfen</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Sylas.png"></div>
+                    <div class="name">Sylas</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/TahmKench.png"></div>
+                    <div class="name">Tahm Kench</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner purple">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Talon.png"></div>
+                    <div class="name">Talon</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Taric.png"></div>
+                    <div class="name">Taric</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Thresh.png"></div>
+                    <div class="name">Thresh</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Tristana.png"></div>
+                    <div class="name">Tristana</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Twitch.png"></div>
+                    <div class="name">Twitch</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Varus.png"></div>
+                    <div class="name">Varus</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner grey">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Vladimir.png"></div>
+                    <div class="name">Vladimir</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner blue">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Volibear.png"></div>
+                    <div class="name">Volibear</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner purple">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Xayah.png"></div>
+                    <div class="name">Xayah</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner gold">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Yasuo.png"></div>
+                    <div class="name">Yasuo</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner green">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Yone.png"></div>
+                    <div class="name">Yone</div>
+                </div>
+            </label>
+            <label class="option_item">
+                <input type="checkbox" class="checkbox">
+                <div class="option_inner gold">
+                    <div class="tickmark"></div>
+                    <div class="icon"><img src="images/Zoe.png"></div>
+                    <div class="name">Zoe</div>
+                </div>
+            </label>
+        </div>
+    </div>
+<script>
+    var modal = document.getElementById("modal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("btn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on the button, open the modal
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+</script>
