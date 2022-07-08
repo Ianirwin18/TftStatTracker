@@ -38,13 +38,14 @@
 }
 
 
-body {
+html {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/tft.png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
     width: 100%;
     color: #333;
-    margin: 0;
 }
 
 .navbar {
