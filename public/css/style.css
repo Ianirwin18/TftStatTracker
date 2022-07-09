@@ -529,4 +529,17 @@ span
     font-size: 18px;
 }
 
+.emailform {
+	width:380px;
+	height:250px;
+	position:relative;
+	margin:2% auto;
+	background: rgba(46, 21, 105, 0.459);
+	padding:10px;
+    overflow: hidden;
+	border: 1px solid gray;
+	color: white;
+	font-family: 'friz_quadrataregular_italic';
+	
+}
 
