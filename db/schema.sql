@@ -10,4 +10,7 @@ CREATE TABLE champs (
     trait1 VARCHAR(30),
     trait2 VARCHAR(30),
     trait3 VARCHAR(30)
+
 )
+
+
