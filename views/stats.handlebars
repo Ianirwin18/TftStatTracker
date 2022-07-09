@@ -1,11 +1,10 @@
-
 <h1 class="header">Stats</h1>
 <div class="container">
-    <input type="submit" value="Load A New Match" id="btn" /><br><br>
+    <input type="submit" value="Load A New Match" id="load-btn" /><br><br>
 
-<div id="matchHistory">
-    <div class="historyContainer"></div>
-    <hr>
+    <div id="matchHistory">
+        <div class="historyContainer"></div>
+        <hr>
     </div>
 
 </div>
@@ -18,6 +17,7 @@
         <div class="title">
             Select Your Team Comp
         </div>
+
         <button class="submit-btn">submit</button>
         <br>
             <div class="placement"><input type="radio" name="placement" data-placement="1">1</div>
@@ -33,6 +33,7 @@
             {{#each champions}}
                         <label class="option_item">
                 <input type="checkbox" data-champ-id="{{id}}" class="checkbox">
+
                 <div id="{{champion}}" class="option_inner grey">
                     <div class="tickmark"></div>
                     <div class="icon"><img src="/images/{{champion}}.png"></div>
@@ -41,18 +42,18 @@
             </label>
             {{/each}}
         </div>
-    </div>
+</div>
 
 <script>
     var modal = document.getElementById("modal");
-console.log("model", modal)
-let champions = []
-        const getChampions = async () => {
-            const res = await fetch("/api/champions");
-            const data = await res.json();
-            console.log("CHAMPIONS ", data)
-        }
-        getChampions()
+    console.log("model", modal)
+    let champions = []
+    const getChampions = async () => {
+        const res = await fetch("/api/champions");
+        const data = await res.json();
+        console.log("CHAMPIONS ", data)
+    }
+    getChampions()
 
 
 document.querySelector(".submit-btn").addEventListener("click", async function(e) {
@@ -87,25 +88,26 @@ document.querySelector(".submit-btn").addEventListener("click", async function(e
             document.getElementsByName("champion").addEventListener('click', function(e){
                 let champ = e.target.id
                 fetch(`/api/champions/${champ}`)
+
                 .then(res => res.json())
                 .then(data => console.log(data))
                 .catch(err => console.log(err))
 
-                fetch(`/api/saveChampion/${champ}`)
+            fetch(`/api/saveChampion/${champ}`)
 
-                // Every User has some champs
-                // Need an api route to POST that a user selected a champ
-                // That post API route will save the user and champ relationship
-            })
-        } 
+            // Every User has some champs
+            // Need an api route to POST that a user selected a champ
+            // That post API route will save the user and champ relationship
+        })
+    }
 
     
 
     // Get the button that opens the modal
-    var btn = document.getElementById("btn");
+    var btn = document.getElementById("load-btn");
 
-        // When the user clicks on the button, open the modal
-        btn.onclick = function () {
-            modal.style.display = "block";
-        }
-    </script>
+    // When the user clicks on the button, open the modal
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+</script>
