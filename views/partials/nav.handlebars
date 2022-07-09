@@ -1,33 +1,26 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png"
-                alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112" height="28">
-        </a>
+<div class="navbar">
+  <div>
+    <img src="images/logo2.png" style="width: 75px;" />
+  </div>
+  <nav>
+    <ul id="MenuItems">
+      <li><a href="/home">Home</a></li>
+      <li><a href="/stats">Stats</a></li>
+      <li><a href="/compare">Compare</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="/login">Login</a></li>
+    </ul>
+  </nav>
+</div>
 
-        <div class="navbar">
-            <div>
-              <img src="images/logo2.png" style="width: 75px;">
-            </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/stats">Stats</a></li>
-                    <li><a href="/compare">Compare</a></li>
-                    <li><a href="/contact">Contact</a></li>
-                    <li><a href="/login">Login</a></li>
-                </ul>
-            </nav>
-        </div>
+<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+  <span aria-hidden="true"></span>
+</a>
 
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-        </a>
-
-        {{!-- PUT BUTTON HERE THAT OPENS MODAL --}}
-        <div class="modal" id="upload-match">
+{{! PUT BUTTON HERE THAT OPENS MODAL }}
+{{! <div class="modal" id="upload-match">
             <div class="modal-background"></div>
             <div class="modal-content">
                <div class="champ-container">
@@ -506,67 +499,4 @@
         <button class="js-modal-trigger button is-primary" data-target="upload-match">
             Open JS example modal
         </button>
-    </div>
-    <script>
-        let champions = []
-        const getChampions = async () => {
-            const res = await fetch("/api/champions");
-            const data = await res.json();
-            console.log("CHAMPIONS ", data)
-        }
-
-        getChampions()
-        
-        for (var j = 0; j < champions.length; j++){
-
-        console.log(champions[j]);
-        }
-
-        document.getElementById("Aatrox").addEventListener('click', function(){
-            console.log(champions)
-        });
-
-        document.addEventListener('DOMContentLoaded', () => {
-            getChampions();
-
-            //do api call to get champions
-            
-
-            // Functions to open and close a modal
-            function openModal($el) {
-                $el.classList.add('is-active');
-            }
-
-            function closeModal($el) {
-                $el.classList.remove('is-active');
-            }
-
-            function closeAllModals() {
-                (document.querySelectorAll('.modal') || []).forEach(($modal) => {
-                    closeModal($modal);
-                });
-            }
-
-            // Add a click event on buttons to open a specific modal
-            (document.querySelectorAll('.js-modal-trigger') || []).forEach(($trigger) => {
-                const modal = $trigger.dataset.target;
-                const $target = document.getElementById(modal);
-
-                $trigger.addEventListener('click', () => {
-                    openModal($target);
-                });
-            });
-
-            // Add a click event on various child elements to close the parent modal
-            (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
-                const $target = $close.closest('.modal');
-
-                $close.addEventListener('click', () => {
-                    closeModal($target);
-                });
-            });
-
-            // Add a keyboard event to close all modals
-            document.addEventListener('keydown', (event) => {
-                const e = event || window.event;
-
+    </div> }}
