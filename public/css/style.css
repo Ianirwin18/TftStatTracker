@@ -39,7 +39,7 @@
 
 
 html {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/tft.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/tft.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -268,7 +268,10 @@ hr {
 }
 
 .option_item .option_inner .icon img {
-    max-width: 45px;
+    max-width: 100px;
+    position: absolute;
+    left: 33px;
+    top: 35px;
 }
 
 .option_item .option_inner .name {
@@ -479,7 +482,6 @@ span
     display: flex;
     justify-content: space-between;
     border-radius: 5px;
-	
 }
 
 .search .input {

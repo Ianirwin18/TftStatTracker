@@ -11,5 +11,25 @@ Match.belongsToMany(Champion, {
     through: "match_champion"
 })
 
+Champion.belongsTo(User, {
+    through: {
+        model:Champion,
+        unique: false,
+    },
+    as: "Champion"
+});
 
-module.exports = { Champion, User, Match }
+User.belongsToMany(Champion, {
+    through: {
+      model: User,
+      unique: false,
+    },
+    as: "User"
+  })
+
+
+module.exports = { 
+    Champion, 
+    User, 
+    Match,
+}

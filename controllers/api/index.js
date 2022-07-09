@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const api_key = "RGAPI-0cef21c9-9fad-4538-b914-395373dda385";
+const api_key = "RGAPI-f9d1eeda-cb25-4980-a320-b9ce7c6c8e7d";
 var summoner_name = "PapaFluff";
 
 function get_puuid(summoner_name) {
@@ -13,6 +13,7 @@ function get_puuid(summoner_name) {
         resolve(res["puuid"]);
       })
       .catch((err) => {
+        console.log("WHOLE ERR", err)
         reject(err.message);
       });
   });
@@ -48,14 +49,17 @@ async function get_matches(puuid) {
   });
 }
 
-get_puuid(summoner_name)
+try{
+
+  
+  get_puuid(summoner_name)
   .then((p) => {
     get_matches(p)
-      .then((matches) => {
-        for (match of matches) {
+    .then((matches) => {
+      for (match of matches) {
           get_match_data(match)
-            .then((match_data) => {
-              for (player of match_data["info"]["participants"]) {
+          .then((match_data) => {
+            for (player of match_data["info"]["participants"]) {
                 if (player["puuid"] === p) {
                   console.log(player["placement"]);
                   for (trait of player["traits"]) {
@@ -67,15 +71,18 @@ get_puuid(summoner_name)
               }
             })
             .catch((err) => {
-              console.error(err);
+              console.error("1",err);
             });
-        }
-      })
+          }
+        })
       .catch((err) => {
-        console.error(err);
+        console.error("2", err);
       });
-  })
-  .catch((err) => {
-    console.error(err);
+    })
+    .catch((err) => {
+    console.error("3", err);
   });
-
+  
+}catch(err){
+  console.log("ERR", err)
+}
