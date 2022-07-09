@@ -1,9 +1,8 @@
-const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
+const { DataTypes, Model } = require("sequelize");
+class MatchChamp extends Model {}
 
-class Match extends Model {}
-
-Match.init(
+MatchChamp.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -11,18 +10,21 @@ Match.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    place: {
-      type: DataTypes.INTEGER,
-    },
-    score: {
-      type: DataTypes.INTEGER,
-    },
-    user_id: {
+    match_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: "user",
+        model: "match",
+        key: "id",
       },
-      allowNull: true,
+      unique: false,
+    },
+    champion_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: "champion",
+        key: "id",
+      },
+      unique: false,
     },
   },
   {
@@ -30,8 +32,8 @@ Match.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "match",
+    modelName: "match_champion",
   }
 );
 
-module.exports = Match;
+module.exports = MatchChamp;
