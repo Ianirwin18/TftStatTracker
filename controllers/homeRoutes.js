@@ -21,7 +21,7 @@ router.get('/signup', (req, res) => {
 });
 router.get('/stats', async(req, res) => {
   const champs = await Champion.findAll();
-  const champions = champs.map(c => c.get({plain:true}));
+  const champions = champs.map(c => c.get({plain:true})).map(a => ({...a, champion_img: a.champion.replace(/ |'/g, "")}));
   res.render('stats', {champions});
 });
 module.exports = router;
