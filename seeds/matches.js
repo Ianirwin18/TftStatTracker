@@ -1,4 +1,4 @@
-const seed = require("./mattmatches.json");
+const seed = require("./tonyfriendmatches.json");
 const { Champion } = require("../models");
 const fs = require('fs')
 
