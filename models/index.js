@@ -1,15 +1,27 @@
-
 const Champion = require("./Champion");
 const User = require("./User");
 const Match = require("./Match");
+const MatchChampion = require("./MatchChampion");
 
-Champion.belongsToMany(Match, {
-    through: "match_champion"
+Champion.belongsTo(User, {
+  through: {
+    model: Champion,
+    unique: false,
+  },
+  as: "Champion",
 });
 
-Match.belongsToMany(Champion, {
-    through: "match_champion"
-})
+User.belongsToMany(Champion, {
+  through: {
+    model: User,
+    unique: false,
+  },
+  as: "User",
+});
 
-
-module.exports = { Champion, User, Match }
+module.exports = {
+  Champion,
+  User,
+  Match,
+  MatchChampion,
+};
