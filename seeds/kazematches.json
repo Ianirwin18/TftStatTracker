@@ -1,13 +1,13 @@
 [
-[1, "Senna", "Thresh", "Jinx", "Tristana", "Lulu", "Corki", "Sona", "Idas"],
-[7, "Sejuani", "Sejuani", "Qiyana", "Shen", "Twitch", "Xayah", "Ornn"],
-[3, "Ashe", "Swain", "Hecarim", "Neeko", "Xayah", "Shi Oh Yu", "Yasuo"],
-[8, "Vladimir", "Vladimir", "Skarner", "Skarner", "Nidalee", "Nami", "Varus"],
-[5, "Vladimir", "Skarner", "Skarner", "Nidalee", "Nami", "Lillia", "Varus", "Illaoi"],
-[2, "Qiyana", "Lillia", "Braum", "Elise", "Olaf", "Diana", "Talon", "Ornn", "Pyke"],
-[8, "Ezreal", "Ezreal", "Thresh", "Shen", "Lulu", "Idas"],
-[7, "Shi Oh Yu", "Daeja", "Idas", "Yasuo"],
-[1, "Tahm Kench", "Jinx", "Tristana", "Lulu", "Corki", "Ornn", "Sona" ],
-[4, "Tahm Kench", "Jinx", "Tristana", "Lulu", "Corki", "Daeja", "Sona" ],
-[8, "Senna", "Tahm Kench", "Jinx", "Tristana", "Lulu", "Shi Oh Yu"]
+[1, "kaze", "Senna", "Thresh", "Jinx", "Tristana", "Lulu", "Corki", "Sona", "Idas"],
+[7, "kaze", "Sejuani", "Sejuani", "Qiyana", "Shen", "Twitch", "Xayah", "Ornn"],
+[3, "kaze", "Ashe", "Swain", "Hecarim", "Neeko", "Xayah", "Shi Oh Yu", "Yasuo"],
+[8, "kaze", "Vladimir", "Vladimir", "Skarner", "Skarner", "Nidalee", "Nami", "Varus"],
+[5, "kaze", "Vladimir", "Skarner", "Skarner", "Nidalee", "Nami", "Lillia", "Varus", "Illaoi"],
+[2, "kaze", "Qiyana", "Lillia", "Braum", "Elise", "Olaf", "Diana", "Talon", "Ornn", "Pyke"],
+[8, "kaze", "Ezreal", "Ezreal", "Thresh", "Shen", "Lulu", "Idas"],
+[7, "kaze", "Shi Oh Yu", "Daeja", "Idas", "Yasuo"],
+[1, "kaze", "Tahm Kench", "Jinx", "Tristana", "Lulu", "Corki", "Ornn", "Sona" ],
+[4, "kaze", "Tahm Kench", "Jinx", "Tristana", "Lulu", "Corki", "Daeja", "Sona" ],
+[8, "kaze", "Senna", "Tahm Kench", "Jinx", "Tristana", "Lulu", "Shi Oh Yu"]
 ]
