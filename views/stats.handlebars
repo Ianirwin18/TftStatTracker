@@ -24,7 +24,7 @@
 
             <label class="option_item">
                 <input type="checkbox" class="checkbox">
-                <div class="option_inner grey">
+                <div id="Aatrox" class="option_inner grey">
                     <div class="tickmark"></div>
                     <div class="icon"><img src="images/Aatrox.png"></div>
                     <div class="name">Aatrox</div>
@@ -493,6 +493,34 @@
         </div>
     </div>
 <script>
+let champions = []
+        const getChampions = async () => {
+            const res = await fetch("/api/champions");
+            const data = await res.json();
+            console.log("CHAMPIONS ", data)
+        }
+        getChampions()
+
+        for (let i = 0; i < champions.length; i++) {
+            document.getElementsByName("champion").addEventListener('click', function(e){
+                let champ = e.target.id
+                fetch(`/api/champions/${champ}`)
+                .then(res => res.json())
+                .then(data => console.log(data))
+                .catch(err => console.log(err))
+
+                fetch(`/api/saveChampion/${champ}`)
+
+                // Every User has some champs
+                // Need an api route to POST that a user selected a champ
+                // That post API route will save the user and champ relationship
+            })
+        } 
+
+        document.getElementById("champion").addEventListener('click', function(){
+            console.log(champions)
+        });
+
     var modal = document.getElementById("modal");
 
     // Get the button that opens the modal
