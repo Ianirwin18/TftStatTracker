@@ -1,546 +1,464 @@
 [
-	{
-		"place" : 1,
-        "score" : 4,
-        "champion1" : "Thresh",
-        "champion2" : "Tristana",
-        "champion3" : "Lulu",
-        "champion4" : "Corki",
-        "champion5" : "Sona",
-        "champion6" : "Idas",
-        "champion7" : "Yasuo",
-        "champion8" : "Bard"
-	}
-,
-
-    {
-        "place" : 8,
-        "champion1" : "Shen",
-        "champion2" : "Sylas",
-        "champion3" : "Diana",
-        "champion4" : "Sy'fen",
-        "champion5" : "Ornn",
-        "champion6" : "Pyke"
-    }
-,
-
-    {
-        "place" : 3,
-        "champion" : "Jinx",
-        "champion" : "Lulu",
-        "champion" : "Tristana",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 6,
-        "champion" : "Vladimir",
-        "champion" : "Skarner",
-        "champion" : "Nidalee",
-        "champion" : "Nami",
-        "champion" : "Varus",
-        "champion" : "Illaoi",
-        "champion" : "Aurellion Sol"
-    }
-,
-
-    {
-        "place" : 5,
-        "champion" : "Sett",
-        "champion" : "Thresh",
-        "champion" : "Shen",
-        "champion" : "Swain",
-        "champion" : "Volibear",
-        "champion" : "Sona",
-        "champion" : "Bard",
-        "champion" : "Shyvana"
-    }
-,
-
-    {
-        "place" : 3,
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Neeko",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Heimerdinger",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Illaoi",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sonna",
-        "champion" : "Yasuo",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 2,
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas",
-    }
-,
-
-	{
-		"place" : 1,
-        "champion1" : "Thresh",
-        "champion2" : "Tristana",
-        "champion3" : "Lulu",
-        "champion4" : "Corki",
-        "champion5" : "Sona",
-        "champion6" : "Idas",
-        "champion7" : "Yasuo",
-        "champion8" : "Bard"
-	}
-,
-
-    {
-        "place" : 8,
-        "champion" : "Shen",
-        "champion" : "Sylas",
-        "champion" : "Diana",
-        "champion" : "Sy'fen",
-        "champion" : "Ornn",
-        "champion" : "Pyke"
-    }
-,
-
-    {
-        "place" : 3,
-        "champion" : "Jinx",
-        "champion" : "Lulu",
-        "champion" : "Tristana",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 6,
-        "champion" : "Vladimir",
-        "champion" : "Skarner",
-        "champion" : "Nidalee",
-        "champion" : "Nami",
-        "champion" : "Varus",
-        "champion" : "Illaoi",
-        "champion" : "Aurellion Sol"
-    }
-,
-
-    {
-        "place" : 5,
-        "champion" : "Sett",
-        "champion" : "Thresh",
-        "champion" : "Shen",
-        "champion" : "Swain",
-        "champion" : "Volibear",
-        "champion" : "Sona",
-        "champion" : "Bard",
-        "champion" : "Shyvana"
-    }
-,
-
-    {
-        "place" : 3,
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Neeko",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Heimerdinger",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Illaoi",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sonna",
-        "champion" : "Yasuo",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 2,
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Aatrox",
-        "champion" : "Kayn",
-        "champion" : "Volibear",
-        "champion" : "Hecarim",
-        "champion" : "Xayah",
-        "champion" : "Idas",
-        "champion" : "Zoe",
-        "champion" : "Yasuo"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Tahm Kench",
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Yasuo",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 2,
-        "champion" : "Sejuani",
-        "champion" : "Qiyana",
-        "champion" : "Shen",
-        "champion" : "Twitch",
-        "champion" : "Hecarim",
-        "champion" : "Talon",
-        "champion" : "Xayah",
-        "champion" : "Ornn"
-    }
-,
-
-    {
-        "place" : 4,
-        "champion" : "Gnar",
-        "champion" : "Shen",
-        "champion" : "Swain",
-        "champion" : "Hecarim",
-        "champion" : "Neeko",
-        "champion" : "Xayah",
-        "champion" : "Shyvana"
-    }
-,
-
-    {
-        "place" : 3,
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Bard",
-        "champion" : "Soraka"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Tahm Kench",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Daeja",
-        "champion" : "Sona",
-        "champion" : "Yasuo"
-    }
-,
-
-    {
-        "place" : 2,
-        "champion" : "Tahm Kench",
-        "champion" : "Jinx",
-        "champion" : "Shen",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Illaoi",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona"
-    }
-,
-
-    {
-        "place" : 4,
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Tahm Kench",
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Illaoi",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 3,
-        "champion" : "Skarner",
-        "champion" : "Nami",
-        "champion" : "Lulu",
-        "champion" : "Ryze",
-        "champion" : "Sylas",
-        "champion" : "Illaoi",
-        "champion" : "Ornn",
-        "champion" : "Zoe",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Heimerdinger",
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 2,
-        "champion" : "Tahm Kench",
-        "champion" : "Jinx",
-        "champion" : "Shen",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 2,
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Illaoi",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Daeja",
-        "champion" : "Sona",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Thresh",
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Nami",
-        "champion" : "Illaoi",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Daeja",
-        "champion" : "Sona",
-        "champion" : "Zoe",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Tahm Kench",
-        "champion" : "Jinx",
-        "champion" : "Lulu",
-        "champion" : "Illaoi",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 2,
-        "champion" : "Jinx",
-        "champion" : "Shen",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas"
-    }
-,
-
-    {
-        "place" : 3,
-        "champion" : "Tahm Kench",
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Yasuo"
-    }
-,
-
-    {
-        "place" : 3,
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Yasuo",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 2,
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Yasuo",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 3,
-        "champion" : "Thresh",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 3,
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Yasuo"
-    }
-,
-
-    {
-        "place" : 3,
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Yasuo",
-        "champion" : "Bard"
-    }
-,
-
-    {
-        "place" : 1,
-        "champion" : "Thresh",
-        "champion" : "Jinx",
-        "champion" : "Tristana",
-        "champion" : "Lulu",
-        "champion" : "Corki",
-        "champion" : "Ornn",
-        "champion" : "Sona",
-        "champion" : "Idas",
-        "champion" : "Bard"
-    }
+    [
+        1,
+        "Thresh",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Sona",
+        "Idas",
+        "Yasuo",
+        "Bard"
+    ],
+    [
+        8,
+        "Shen",
+        "Sylas",
+        "Diana",
+        "Sy'fen",
+        "Ornn",
+        "Pyke"
+    ],
+    [
+        3,
+        "Jinx",
+        "Lulu",
+        "Tristana",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas",
+        "Bard"
+    ],
+    [
+        6,
+        "Vladimir",
+        "Skarner",
+        "Nidalee",
+        "Nami",
+        "Varus",
+        "Illaoi",
+        "Aurelion Sol"
+    ],
+    [
+        5,
+        "Sett",
+        "Thresh",
+        "Shen",
+        "Swain",
+        "Volibear",
+        "Sona",
+        "Bard",
+        "Shyvana"
+    ],
+    [
+        3,
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Neeko",
+        "Ornn",
+        "Sona",
+        "Idas",
+        "Bard"
+    ],
+    [
+        1,
+        "Heimerdinger",
+        "Tristana",
+        "Lulu",
+        "Illaoi",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Yasuo",
+        "Bard"
+    ],
+    [
+        2,
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas"
+    ],
+    [
+        1,
+        "Thresh",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Sona",
+        "Idas",
+        "Yasuo",
+        "Bard"
+    ],
+    [
+        8,
+        "Shen",
+        "Sylas",
+        "Diana",
+        "Sy'fen",
+        "Ornn",
+        "Pyke"
+    ],
+    [
+        3,
+        "Jinx",
+        "Lulu",
+        "Tristana",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas",
+        "Bard"
+    ],
+    [
+        6,
+        "Vladimir",
+        "Skarner",
+        "Nidalee",
+        "Nami",
+        "Varus",
+        "Illaoi",
+        "Aurelion Sol"
+    ],
+    [
+        5,
+        "Sett",
+        "Thresh",
+        "Shen",
+        "Swain",
+        "Volibear",
+        "Sona",
+        "Bard",
+        "Shyvana"
+    ],
+    [
+        3,
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Neeko",
+        "Ornn",
+        "Sona",
+        "Idas",
+        "Bard"
+    ],
+    [
+        1,
+        "Heimerdinger",
+        "Tristana",
+        "Lulu",
+        "Illaoi",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Yasuo",
+        "Bard"
+    ],
+    [
+        2,
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas",
+        "Bard"
+    ],
+    [
+        1,
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas",
+        "Bard"
+    ],
+    [
+        1,
+        "Aatrox",
+        "Kayn",
+        "Volibear",
+        "Hecarim",
+        "Xayah",
+        "Idas",
+        "Zoe",
+        "Yasuo"
+    ],
+    [
+        1,
+        "Tahm Kench",
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Yasuo",
+        "Bard"
+    ],
+    [
+        2,
+        "Sejuani",
+        "Qiyana",
+        "Shen",
+        "Twitch",
+        "Hecarim",
+        "Talon",
+        "Xayah",
+        "Ornn"
+    ],
+    [
+        4,
+        "Gnar",
+        "Shen",
+        "Swain",
+        "Hecarim",
+        "Neeko",
+        "Xayah",
+        "Shyvana"
+    ],
+    [
+        3,
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas",
+        "Bard",
+        "Soraka"
+    ],
+    [
+        1,
+        "Tahm Kench",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Daeja",
+        "Sona",
+        "Yasuo"
+    ],
+    [
+        2,
+        "Tahm Kench",
+        "Jinx",
+        "Shen",
+        "Tristana",
+        "Lulu",
+        "Illaoi",
+        "Corki",
+        "Ornn",
+        "Sona"
+    ],
+    [
+        4,
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas"
+    ],
+    [
+        1,
+        "Tahm Kench",
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Illaoi",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Bard"
+    ],
+    [
+        3,
+        "Skarner",
+        "Nami",
+        "Lulu",
+        "Ryze",
+        "Sylas",
+        "Illaoi",
+        "Ornn",
+        "Zoe",
+        "Bard"
+    ],
+    [
+        1,
+        "Heimerdinger",
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Sona",
+        "Idas",
+        "Bard"
+    ],
+    [
+        2,
+        "Tahm Kench",
+        "Jinx",
+        "Shen",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Bard"
+    ],
+    [
+        2,
+        "Tristana",
+        "Lulu",
+        "Illaoi",
+        "Corki",
+        "Ornn",
+        "Daeja",
+        "Sona",
+        "Bard"
+    ],
+    [
+        1,
+        "Thresh",
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas"
+    ],
+    [
+        1,
+        "Nami",
+        "Illaoi",
+        "Corki",
+        "Ornn",
+        "Daeja",
+        "Sona",
+        "Zoe",
+        "Bard"
+    ],
+    [
+        1,
+        "Tahm Kench",
+        "Jinx",
+        "Lulu",
+        "Illaoi",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas",
+        "Bard"
+    ],
+    [
+        2,
+        "Jinx",
+        "Shen",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas"
+    ],
+    [
+        3,
+        "Tahm Kench",
+        "Jinx",
+        "Tristana",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas",
+        "Yasuo"
+    ],
+    [
+        3,
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas"
+    ],
+    [
+        1,
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Sona",
+        "Idas",
+        "Yasuo",
+        "Bard"
+    ],
+    [
+        2,
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Sona",
+        "Idas",
+        "Yasuo",
+        "Bard"
+    ],
+    [
+        3,
+        "Thresh",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Sona",
+        "Idas",
+        "Bard"
+    ],
+    [
+        3,
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Sona",
+        "Idas",
+        "Yasuo"
+    ],
+    [
+        3,
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Sona",
+        "Idas",
+        "Yasuo",
+        "Bard"
+    ],
+    [
+        1,
+        "Thresh",
+        "Jinx",
+        "Tristana",
+        "Lulu",
+        "Corki",
+        "Ornn",
+        "Sona",
+        "Idas",
+        "Bard"
+    ]
 ]
+

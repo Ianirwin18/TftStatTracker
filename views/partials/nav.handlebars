@@ -5,6 +5,21 @@
                 alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112" height="28">
         </a>
 
+        <div class="navbar">
+            <div>
+              <img src="images/logo2.png" style="width: 75px;">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/stats">Stats</a></li>
+                    <li><a href="/compare">Compare</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -487,9 +502,6 @@
             </label>
         </div>
     </div>
-            </div>
-            <button class="modal-close is-large" aria-label="close"></button>
-        </div>
 
         <button class="js-modal-trigger button is-primary" data-target="upload-match">
             Open JS example modal
@@ -558,10 +570,3 @@
             document.addEventListener('keydown', (event) => {
                 const e = event || window.event;
 
-                if (e.keyCode === 27) { // Escape key
-                    closeAllModals();
-                }
-            });
-        });
-    </script>
-</nav>
