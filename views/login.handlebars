@@ -1,43 +1,53 @@
-<h1 class="header">Log In / Register</h1>
-        <div id='login-form' class='login-page'>
-            <div class="form-box">
-                <div class='button-box'>
-                    <div id='btn'></div>
-                    <button type='button' onclick='left()' class='toggle-btn'>Log In</button>
-                    <button type='button' onclick='right()' class='toggle-btn'>Register</button>
-                </div>
-                <form id='login' class='input-group-login'>
-                    <input type='text' class='input-field' placeholder='Email' required>
-                    <input type='password' class='input-field' placeholder='Enter Password' required>
-                    <input type='checkbox' class='check-box'><span>Remember Password</span>
-                    <button type='submit' class='submit-btn'>Log In</button>
-                </form>
-                <form id='signup-form' class='input-group-register'>
-                    <input type='text' class='input-field' placeholder='First Name' required>
-                    <input type='text' class='input-field' placeholder='Last Name ' required>
-                    <input type='email' class='input-field' placeholder='Email' required>
-                    <input type='password' class='input-field' placeholder='Enter Password' required>
-                    <input type='password' class='input-field' placeholder='Confirm Password' required>
-    
-                    <button type='submit' class='submit-btn'>Register</button>
-                </form>
-            </div>
-        </div>
-    
-    <script>
-        var x=document.getElementById('login');
-		var y=document.getElementById('register');
-		var z=document.getElementById('btn');
-		function right()
-		{
-			x.style.left='-400px';
-			y.style.left='50px';
-			z.style.left='110px';
-		}
-		function left()
-		{
-			x.style.left='50px';
-			y.style.left='450px';
-			z.style.left='0px';
-		}
-	</script>
+<h1 class="header">Log In / Signup</h1>
+<div id="login-form" class="login-page">
+  <div class="form-box">
+    <div class="button-box">
+      <div id="btn"></div>
+      <button type="button" onclick="left()" class="toggle-btn">Log In</button>
+      <button
+        type="button"
+        onclick="right()"
+        class="toggle-btn"
+      >Register</button>
+    </div>
+    <form id="login" class="input-group-login">
+      <input type="email" class="input-field" placeholder="Email" required />
+      <input
+        type="password"
+        class="input-field"
+        placeholder="Enter Password"
+        required
+      />
+      <input type="checkbox" class="check-box" /><span>Remember Password</span>
+      <button type="submit" class="submit-btn">Log In</button>
+    </form>
+    <form id="signup-form" class="input-group-register">
+      <input type="email" class="input-field" id="email-signup" placeholder="Email" required />
+      <input type="text" class="input-field" id="username-signup" placeholder="Username" required />
+      <input
+        type="password"
+        class="input-field"
+        placeholder="Enter Password"
+        required
+      />
+      <input
+        type="password"
+        class="input-field"
+        id="password-signup"
+        placeholder="Confirm Password"
+        required
+      />
+      <button type="submit" class="submit-btn">SignUp</button>
+    </form>
+  </div>
+</div>
+
+<script src="/js/signup.js"></script>
+<script src="/js/login.js"></script>
+<script>
+  var x=document.getElementById('login'); var
+  y=document.getElementById('signup-form'); var
+  z=document.getElementById('btn'); function right() { x.style.left='-400px';
+  y.style.left='50px'; z.style.left='110px'; } function left() {
+  x.style.left='50px'; y.style.left='450px'; z.style.left='0px'; }
+</script>

@@ -1,10 +1,12 @@
-const router = require('express').Router();
+const router = require("express").Router();
 
 //rework later into api endpoints;
-const apiRoutes = require('./api/champsRoutes');
-const homeRoutes = require('./homeRoutes');
+const apiRoutes = require("./api/champsRoutes");
+const homeRoutes = require("./homeRoutes");
+const userRoutes = require("./api/userRoutes");
 
-router.use('/', homeRoutes);
-router.use('/api', apiRoutes);
+router.use("/", homeRoutes);
+router.use("/api", apiRoutes);
+router.use("/api/users", userRoutes);
 
 module.exports = router;
