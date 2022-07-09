@@ -17,28 +17,26 @@
         <div class="title">
             Select Your Team Comp
         </div>
-        <input type="submit" value="Submit Stats" id="stat-btn" />
+
+        <button class="submit-btn">submit</button>
         <br>
-        <h4>What Place Did You Finish?</h4>
-        <div class="place-container">
-            <div class="placement"><input type="checkbox">1</div>
-            <div class="placement"><input type="checkbox">2</div>
-            <div class="placement"><input type="checkbox">3</div>
-            <div class="placement"><input type="checkbox">4</div>
-            <div class="placement"><input type="checkbox">5</div>
-            <div class="placement"><input type="checkbox">6</div>
-            <div class="placement"><input type="checkbox">7</div>
-            <div class="placement"><input type="checkbox">8</div>
-        </div>
-        
+            <div class="placement"><input type="radio" name="placement" data-placement="1">1</div>
+            <div class="placement"><input type="radio" name="placement" data-placement="2">2</div>
+            <div class="placement"><input type="radio" name="placement" data-placement="3">3</div>
+            <div class="placement"><input type="radio" name="placement" data-placement="4">4</div>
+            <div class="placement"><input type="radio" name="placement" data-placement="5">5</div>
+            <div class="placement"><input type="radio" name="placement" data-placement="6">6</div>
+            <div class="placement"><input type="radio" name="placement" data-placement="7">7</div>
+            <div class="placement"><input type="radio" name="placement" data-placement="8">8</div>
 
         <div class="champ-container">
             {{#each champions}}
-            <label class="option_item">
-                <input type="checkbox" class="checkbox">
+                        <label class="option_item">
+                <input type="checkbox" data-champ-id="{{id}}" class="checkbox">
+
                 <div id="{{champion}}" class="option_inner grey">
                     <div class="tickmark"></div>
-                    <div class="icon"><img src="/images/{{champion_img}}.png"></div>
+                    <div class="icon"><img src="/images/{{champion}}.png"></div>
                     <div class="name">{{champion}}</div>
                 </div>
             </label>
@@ -57,10 +55,40 @@
     }
     getChampions()
 
-    for (let i = 0; i < champions.length; i++) {
-        document.getElementsByName("champion").addEventListener('click', function (e) {
-            let champ = e.target.id
-            fetch(`/api/champions/${champ}`)
+
+document.querySelector(".submit-btn").addEventListener("click", async function(e) {
+    e.preventDefault();
+    e.stopPropagation()
+    const checked = document.querySelectorAll(".checkbox:checked");
+    const radioCheck = document.querySelector("input[name=placement]:checked");
+    console.log(radioCheck.dataset.placement)
+    const champIds = [];
+    checked.forEach(champ => {
+        champIds.push(champ.dataset.champId);
+    });
+
+    //submit this to the server
+    const data = {
+        champIds: champIds,
+        placement: radioCheck.dataset.placement
+    };
+    //make api call to /api/creatematch endpoint
+    const res = await fetch("/api/creatematch", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(data)
+    });
+    const json = await res.json();
+    console.log("json", json)
+})
+
+        for (let i = 0; false; i++) {
+            document.getElementsByName("champion").addEventListener('click', function(e){
+                let champ = e.target.id
+                fetch(`/api/champions/${champ}`)
+
                 .then(res => res.json())
                 .then(data => console.log(data))
                 .catch(err => console.log(err))
@@ -72,6 +100,8 @@
             // That post API route will save the user and champ relationship
         })
     }
+
+    
 
     // Get the button that opens the modal
     var btn = document.getElementById("load-btn");
