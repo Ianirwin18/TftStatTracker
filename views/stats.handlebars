@@ -1,7 +1,7 @@
 
 <h1 class="header">Stats</h1>
 <div class="container">
-    <input type="submit" value="Load A New Match" id="btn" /><br><br>
+    <input type="submit" value="Load A New Match" id="load-btn" /><br><br>
 
 <div id="matchHistory">
     <div class="historyContainer"></div>
@@ -540,7 +540,7 @@ let champions = []
         } 
 
     // Get the button that opens the modal
-    var btn = document.getElementById("btn");
+    var btn = document.getElementById("load-btn");
 
         // When the user clicks on the button, open the modal
         btn.onclick = function () {
